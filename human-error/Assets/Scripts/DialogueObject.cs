@@ -9,5 +9,8 @@ public class DialogueObject : ScriptableObject
 
     public string[] Dialogue => dialogue;
 
+    //note: => is a really easy way to declare stuff wow 
+    public bool HasResponses => Responses != null && Responses.Length > 0;
+
     public Response[] Responses => responses;
 }
