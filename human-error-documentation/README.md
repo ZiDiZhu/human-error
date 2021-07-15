@@ -1,15 +1,26 @@
-# Human Error
+check issues tab on the github project for the most recent documentations.
+
+# Human Error - Draft / ideas / Design Directions
 
 An interactive experience set in a future scenario where a clone person experiences recorded memories of their prototype self in VR.
 
-### Narrative
+## Narrative Concept
 
-starts discourses on the subjects of identity, simulation, trauma and death.
+**It will be a storytelling game with several chapters. The order in which chapters are played is randomly generated. so there is in total x! amount of possibilities where x is the number of chapters. If there were 5 chapters, there'll be 5x4x3x2x1=120 possible sequences**
 
-Has several chapters, each detailing a specific moments of life of this prototype person.
+The several chapters each details a specific moments of life of this prototype person.
+They all have relevant/connected information and the player will have to make sense of the story that is out of order.
+
+###Why This Concept?
+
+I want to see how the order in which events are told in a story would affect its tone / feel.
+
+I'm proposing this hypothetical genre/form of a storytelling media called "Chaotic Sequence" where parts of a story can be told in any and every order. So each time you read the story it'll be unique (most likely).
+
+ok it's basically like shuffling an album... but I haven't seen any shows / story / narrative games that has this "shuffle" mechanic so I think I'd attempt it. 
 
 
-### Game Design
+## Game Design
 
 Very minimal inputs, as this project's focus will be the *cinematics* of each scene.
 
@@ -20,7 +31,7 @@ Requires the user to perform some actions to trigger the next events such as
 - navigate (in a 2D or 3D space)
 - move the mouse to rotate camera view
 
-### Art direction
+## Art direction
 
 Create an atmosphere that's *oddly familiar* (uh I guess for myself at least?)
 
@@ -31,7 +42,7 @@ Use a lot of
 - Dim-lit scenes and
 - unusual skies.
 
-### Music/sound design
+## Music/sound design
 
 Mostly an ost with peaceful melody with muted instruments,
 But unusually crisp sound effects?
