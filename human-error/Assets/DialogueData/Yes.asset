@@ -14,4 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - yes definitely
-  - "what a point \nwow"
+  - 'Very much
+
+    definitely'
+  responses: []

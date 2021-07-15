@@ -24,6 +24,8 @@ public class ResponseHandler : MonoBehaviour
 
         foreach (Response response in responses)
         {
+            Cursor.lockState = CursorLockMode.None;
+
             GameObject responseButton = Instantiate(responseButtonTemplate.gameObject, responseContainer);
             responseButton.gameObject.SetActive(true);
             responseButton.GetComponent<TMP_Text>().text = response.ResponseText;
@@ -43,7 +45,9 @@ public class ResponseHandler : MonoBehaviour
     {
         responseBox.gameObject.SetActive(false);
 
-        foreach(GameObject button in tempResponseButtons)
+        Cursor.lockState = CursorLockMode.Locked;
+
+        foreach (GameObject button in tempResponseButtons)
         {
             Destroy(button);
         }
