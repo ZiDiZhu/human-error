@@ -5,6 +5,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public CharacterController cc;
+    public PlayerMovement playerMovement;
 
     [SerializeField] private DialogueUI dialogueUI;
 
@@ -15,11 +16,20 @@ public class Player : MonoBehaviour
     void Start()
     {
         cc = GetComponent<CharacterController>();
+        playerMovement = GetComponent<PlayerMovement>();
     }
 
     void Update()
     {
-        if (dialogueUI.isOpen) return;
+        //lock the player's movement while in a dialogue
+        if (dialogueUI.isOpen)
+        {
+            playerMovement.enabled = false;
+        }
+        else
+        {
+            playerMovement.enabled = true;
+        }
 
         if (Input.GetMouseButton(0))
         {

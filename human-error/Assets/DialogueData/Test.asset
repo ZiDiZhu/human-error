@@ -17,7 +17,7 @@ MonoBehaviour:
   - ARE YOU
   - APPROACHING ME?
   responses:
-  - responseText: YES
+  - responseText: Yes
     dialogueObject: {fileID: 11400000, guid: f54cd0fc4d8343c44af49f2727239e7d, type: 2}
-  - responseText: maybe
+  - responseText: Maybe
     dialogueObject: {fileID: 11400000, guid: 2afed3fb78462fe4c9b77955d03b2719, type: 2}

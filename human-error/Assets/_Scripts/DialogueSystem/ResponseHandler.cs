@@ -22,9 +22,10 @@ public class ResponseHandler : MonoBehaviour
     {
         float responseBoxHeight = 0;
 
+        Cursor.lockState = CursorLockMode.None;
+
         foreach (Response response in responses)
         {
-            Cursor.lockState = CursorLockMode.None;
 
             GameObject responseButton = Instantiate(responseButtonTemplate.gameObject, responseContainer);
             responseButton.gameObject.SetActive(true);
