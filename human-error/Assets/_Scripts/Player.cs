@@ -25,16 +25,20 @@ public class Player : MonoBehaviour
         if (dialogueUI.isOpen)
         {
             playerMovement.enabled = false;
+            Cursor.lockState = CursorLockMode.None;
         }
-        else
+        else if(!dialogueUI.isOpen)
         {
             playerMovement.enabled = true;
+
+            
+            if (Input.GetKeyDown(KeyCode.E) || Input.GetMouseButtonDown(0))
+            {
+                //?. == if interactable != null
+                Interactable?.Interact(this);
+            }
+            Cursor.lockState = CursorLockMode.Locked;
         }
 
-        if (Input.GetMouseButton(0))
-        {
-            //?. == if interactable != null
-            Interactable?.Interact(this);
-        }
     }
 }
