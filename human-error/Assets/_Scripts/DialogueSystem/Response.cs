@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Response
 {
-  [SerializeField] private string responseText;
+  public string responseText;
   [SerializeField] private DialogueObject dialogueObject;
 
   public string ResponseText => responseText;

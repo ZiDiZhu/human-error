@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using TMPro;
+using UnityEngine.Events;
 
 public class DialogueUI : MonoBehaviour
 {
@@ -29,6 +30,11 @@ public class DialogueUI : MonoBehaviour
         isOpen = true;
         dialogueBox.SetActive(true);
         StartCoroutine (StepThroughDialogue (dialogueObject));
+      }
+      
+      public void AddResponseEvents(ResponseEvent[] responseEvents)
+      {
+        responseHandler.AddResponseEvent(responseEvents);
       }
 
       private IEnumerator StepThroughDialogue (DialogueObject dialogueObject)

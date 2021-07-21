@@ -18,4 +18,4 @@ MonoBehaviour:
   - responseText: Yes
     dialogueObject: {fileID: 11400000, guid: 9cff27378feed7847925bfc5e95fff9a, type: 2}
   - responseText: No
-    dialogueObject: {fileID: 0}
+    dialogueObject: {fileID: 11400000, guid: 2afed3fb78462fe4c9b77955d03b2719, type: 2}
