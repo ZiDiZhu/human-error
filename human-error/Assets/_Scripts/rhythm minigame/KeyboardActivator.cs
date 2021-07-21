@@ -13,19 +13,13 @@ public class KeyboardActivator : MonoBehaviour
     {
         keyboard.SetActive(false);
     }
-    void OnTriggerEnter(Collider other)
+    public void OpenKeyboard()
     {
-        if (other.CompareTag("Player"))
-        {
-            keyboard.SetActive(true);
-        }
+        keyboard.SetActive(true);
     }
 
-    void OnTriggerExit(Collider other)
+    public void CloseKeyboard()
     {
-        if (other.CompareTag("Player"))
-        {
-            keyboard.SetActive(false);
-        }
+        keyboard.SetActive(false);
     }
 }

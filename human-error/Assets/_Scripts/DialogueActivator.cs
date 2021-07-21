@@ -1,8 +1,14 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DialogueActivator : MonoBehaviour, Interactable
 {
     [SerializeField] private DialogueObject dialogueObject;
+
+    public void UpdateDialogueObject(DialogueObject dialogueObject)
+    {
+        this.dialogueObject = dialogueObject;
+    }
 
     public GameObject dialogueIndicator; //indicate there's a dialogue to be triggered
     
@@ -11,11 +17,16 @@ public class DialogueActivator : MonoBehaviour, Interactable
     {
         dialogueIndicator.SetActive(false);
     }
+
     public void Interact(Player player)
     {
-        if(TryGetComponent(out DialogueResponseEvents responseEvents))
+        foreach (DialogueResponseEvents responseEvents in GetComponents<DialogueResponseEvents>())
         {
-            player.DialogueUI.AddResponseEvents(responseEvents.Events);
+            if (responseEvents.DialogueObject == dialogueObject)
+            {
+                player.DialogueUI.AddResponseEvents(responseEvents.Events);
+                break;
+            }
         }
 
         player.DialogueUI.ShowDialogue(dialogueObject);

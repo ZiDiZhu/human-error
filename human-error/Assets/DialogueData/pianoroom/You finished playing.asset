@@ -10,12 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f9b6bbe2a19e7ec48ad69c6bf92a40ae, type: 3}
-  m_Name: piano
+  m_Name: You finished playing
   m_EditorClassIdentifier: 
   dialogue:
-  - Play the piano?
-  responses:
-  - responseText: Yes
-    dialogueObject: {fileID: 0}
-  - responseText: No
-    dialogueObject: {fileID: 0}
+  - The piano is out of tune
+  responses: []
