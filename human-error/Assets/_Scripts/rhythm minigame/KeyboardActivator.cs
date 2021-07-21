@@ -8,6 +8,7 @@ public class KeyboardActivator : MonoBehaviour
 
     public GameObject keyboard;
 
+
     private void Start()
     {
         keyboard.SetActive(false);
