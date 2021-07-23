@@ -4270,6 +4270,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueObject: {fileID: 11400000, guid: 851502be220480144a1eeb46c27e336a, type: 2}
+  dialogueIndicator: {fileID: 0}
 --- !u!1001 &1916306026
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4403,6 +4404,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cc: {fileID: 1926186665}
+  playerMovement: {fileID: 0}
   dialogueUI: {fileID: 635507902}
 --- !u!143 &1926186665 stripped
 CharacterController:
