@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9b6bbe2a19e7ec48ad69c6bf92a40ae, type: 3}
+  m_Name: procedure2
+  m_EditorClassIdentifier: 
+  dialogue:
+  - '*trigger this after 5 seconds and make this disappear after 10 seconds*
+
+
+    Are
+    your eyes closed?'
+  responses:
+  - responseText: Yes
+    dialogueObject: {fileID: 11400000, guid: 36bb959df2611a344b5255746e32abb8, type: 2}
+  - responseText: No
+    dialogueObject: {fileID: 11400000, guid: c132113782dfc4d4d887d127701cd1c2, type: 2}
