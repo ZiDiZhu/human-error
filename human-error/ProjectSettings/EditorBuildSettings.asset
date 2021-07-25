@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Rooms/TherapyRoom.unity
     guid: 52ebeeaf3d1203b44b7fb1fc23859bc6
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CageRoom.unity
+    guid: 935bd1f6dd3d1d242a43bcf672a304f7
   m_configObjects: {}
