@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Hub World.unity
+    guid: db568e5f0ac32c645b567018b04bbf2c
+  - enabled: 1
+    path: Assets/Scenes/Rooms/PianoRoom.unity
+    guid: 31bad3aed9e785b4f9401712fe9e81bb
+  - enabled: 1
+    path: Assets/Scenes/Rooms/PurplePath.unity
+    guid: 50f1d040908015c46a2b9ad87d9fef10
+  - enabled: 1
+    path: Assets/Scenes/Rooms/TherapyRoom.unity
+    guid: 52ebeeaf3d1203b44b7fb1fc23859bc6
   m_configObjects: {}
