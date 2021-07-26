@@ -3,19 +3,19 @@ using UnityEngine.UI;
 
 public class DialogueActivator : MonoBehaviour, Interactable
 {
-    [SerializeField] private DialogueObject dialogueObject;
+    [SerializeField] private DialogueObject dialogueObject; //to add dialogue object in the inspector 
 
     public void UpdateDialogueObject(DialogueObject dialogueObject)
     {
-        this.dialogueObject = dialogueObject;
+        this.dialogueObject = dialogueObject; 
     }
 
-    public GameObject dialogueIndicator; //indicate there's a dialogue to be triggered
+    public GameObject dialogueIndicator; //a ? that indicates there's a dialogue to be triggered
     
 
     void Start()
     {
-        dialogueIndicator.SetActive(false);
+        dialogueIndicator.SetActive(false); // don't show the ? indicator
     }
 
     public void Interact(Player player)
@@ -40,6 +40,8 @@ public class DialogueActivator : MonoBehaviour, Interactable
             {
                 player.Interactable = this;
             }
+
+            //sets up the ? indicator
             dialogueIndicator.SetActive(true);
             dialogueIndicator.GetComponent<TextAnimator>().rotationSpeed = 0.5f;
         }

@@ -54,10 +54,13 @@ public class ResponseHandler : MonoBehaviour
     //when a response is clicked
     private void OnPickedResponse(Response response, int responseIndex)
     {
+        //close the response box
         responseBox.gameObject.SetActive(false);
 
+        //lock the cursor
         Cursor.lockState = CursorLockMode.Locked;
 
+        //destroy the response buttons
         foreach (GameObject button in tempResponseButtons)
         {
             Destroy(button);

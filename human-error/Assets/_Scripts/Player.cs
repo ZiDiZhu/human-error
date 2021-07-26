@@ -11,6 +11,7 @@ public class Player : MonoBehaviour
 
     public DialogueUI DialogueUI=> dialogueUI;
 
+
     public Interactable Interactable { get; set; }
 
     void Start()

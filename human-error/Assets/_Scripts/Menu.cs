@@ -8,15 +8,10 @@ public class Menu : MonoBehaviour
 {
     public GameObject menu;
     public bool menuisOpen;
-    UnityEvent m_MyEvent;
 
     void Start()
     {
         CloseMenu();
-        if (m_MyEvent == null)
-            m_MyEvent = new UnityEvent();
-
-        m_MyEvent.AddListener(Ping);
     }
 
     void Update()
@@ -31,11 +26,6 @@ public class Menu : MonoBehaviour
                 OpenMenu();
             }
         }
-    }
-
-    void Ping()
-    {
-        Debug.Log("Ping");
     }
 
     public void OpenMenu()
