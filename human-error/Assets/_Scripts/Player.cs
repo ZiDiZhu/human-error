@@ -38,7 +38,7 @@ public class Player : MonoBehaviour
                 //?. == if interactable != null
                 Interactable?.Interact(this);
             }
-            Cursor.lockState = CursorLockMode.Locked;
+            
         }
 
     }

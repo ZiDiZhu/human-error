@@ -32,6 +32,7 @@ public class Menu : MonoBehaviour
     {
         menu.SetActive(true);
         Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
         menuisOpen = true;
         
     }
