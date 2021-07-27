@@ -133,7 +133,9 @@ GameObject:
   m_Component:
   - component: {fileID: 21504056}
   - component: {fileID: 21504057}
-  - component: {fileID: 21504058}
+  - component: {fileID: 21504060}
+  - component: {fileID: 21504059}
+  - component: {fileID: 21504061}
   m_Layer: 0
   m_Name: txt1
   m_TagString: Untagged
@@ -168,7 +170,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &21504058
+--- !u!114 &21504059
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -177,10 +179,43 @@ MonoBehaviour:
   m_GameObject: {fileID: 21504055}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8a3416da703ca741a5b3937beb6b64d, type: 3}
+  m_Script: {fileID: 11500000, guid: 0f3ba0588ba5d7b4094044eed41a68b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  caption: {fileID: 1828486664}
+  nextToUnlock:
+  - {fileID: 2084900740}
+  - {fileID: 1828486664}
+  txt: 'This product is selected as a test subject for the development of an experimental
+    feature. This feature''s goal is to give the subject the ability to consciously
+    and virtually perform tasks while being in a sleep-like paralysis state. '
+  label: {fileID: 1828486666}
+--- !u!114 &21504060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 21504055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bca5614ad84c51c40a1ef8b398b00d2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueBox: {fileID: 1828486664}
+  textLabel: {fileID: 1828486666}
+--- !u!114 &21504061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 21504055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c6e2e3ce0979544bb0afab9e7b3dc42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  typeSpeed: 20
 --- !u!1 &120335683
 GameObject:
   m_ObjectHideFlags: 0
@@ -3361,6 +3396,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2084900741}
+  - component: {fileID: 2084900743}
+  - component: {fileID: 2084900742}
   m_Layer: 0
   m_Name: texts
   m_TagString: Untagged
@@ -3383,3 +3420,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2084900742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084900740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c6e2e3ce0979544bb0afab9e7b3dc42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  typeSpeed: 50
+--- !u!114 &2084900743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084900740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bca5614ad84c51c40a1ef8b398b00d2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueBox: {fileID: 2084900740}
+  textLabel: {fileID: 1828486666}
