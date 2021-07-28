@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class UnlockNext : MonoBehaviour
 {
@@ -13,10 +14,10 @@ public class UnlockNext : MonoBehaviour
     public string txt;
     public TMP_Text label;
 
-
     private void Start()
     {
         typewriterEffect = GetComponent<TypewriterEffect>();
+        txt = label.GetComponent<TextMeshPro>().text;
         foreach (GameObject i in nextToUnlock)
         {
             i.SetActive(false);
@@ -34,8 +35,8 @@ public class UnlockNext : MonoBehaviour
                 i.SetActive(true);
             }
             
-
             typewriterEffect.Run(txt, label);
+            GetComponent<BoxCollider>().enabled = false; //to prevent re-triggering 
         }
     }
 }
