@@ -1,12 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 
 public class ReturnToHub : MonoBehaviour
 {
-    public UnityEvent testEvent;
+    public bool quickExit = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,7 +15,7 @@ public class ReturnToHub : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape) && quickExit)
         {
             SceneManager.LoadScene("Hub World");
         }
@@ -24,6 +23,6 @@ public class ReturnToHub : MonoBehaviour
 
     public void ReturnToHubMenu()
     {
-        SceneManager.LoadScene("HubWorld", LoadSceneMode.Additive);
+        SceneManager.LoadScene("Hub World");
     }
 }
