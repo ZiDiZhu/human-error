@@ -15,11 +15,11 @@ C:/Users/win10/Documents/GitHub/human-error/human-error
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63792
+65337
 Successfully changed project path to: C:/Users/win10/Documents/GitHub/human-error/human-error
 C:/Users/win10/Documents/GitHub/human-error/human-error
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 117.90 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 78.15 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.13f1 (71691879b7f5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
@@ -36,41 +36,41 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56316
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56652
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002950 seconds.
+Registered in 0.002686 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 73.43 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 73.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.389 seconds
+- Completed reload, in  1.330 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005994 seconds.
+Registered in 0.005947 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 82.42 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 101.13 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.679 seconds
+- Completed reload, in  1.438 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3624 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.8 MB.
-System memory in use after: 173.0 MB.
+Unloading 3626 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 173.0 MB.
+System memory in use after: 173.2 MB.
 
-Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 4089.
-Total: 2.980700 ms (FindLiveObjects: 0.336600 ms CreateObjectMapping: 0.203500 ms MarkObjects: 2.299500 ms  DeleteObjects: 0.140200 ms)
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 4091.
+Total: 4.082500 ms (FindLiveObjects: 0.383100 ms CreateObjectMapping: 0.196100 ms MarkObjects: 3.385700 ms  DeleteObjects: 0.116000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -84,161 +84,73 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Puzzle.unity
-  artifactKey: Guid(118a6a649b7aa4e489fbe73ee73474c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Puzzle.unity using Guid(118a6a649b7aa4e489fbe73ee73474c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a909c814142543c4756439eb1f31f827') in 0.022696 seconds 
-  Import took 0.029000 seconds .
+  path: Assets/Scenes/Rooms/CageRoom1.unity
+  artifactKey: Guid(1ac884b463477c94f9085c074337ccd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Rooms/CageRoom1.unity using Guid(1ac884b463477c94f9085c074337ccd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '605d64e8d7170be5790dad4aeaee40c8') in 0.024130 seconds 
+  Import took 0.031294 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 9.397622 seconds.
-  path: Assets/TileMap/colorpalette.prefab
-  artifactKey: Guid(cbf3b75432971c049b047738df4700c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileMap/colorpalette.prefab using Guid(cbf3b75432971c049b047738df4700c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f7941318019695941b19fc63cc185a5') in 0.032354 seconds 
-  Import took 0.039386 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007755 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.574 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3478 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 162.1 MB.
+System memory in use after: 162.3 MB.
 
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4094.
+Total: 3.576700 ms (FindLiveObjects: 0.368900 ms CreateObjectMapping: 0.234100 ms MarkObjects: 2.882900 ms  DeleteObjects: 0.089600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 23.558050 seconds.
-  path: Assets/TileMap/colorpalette.prefab
-  artifactKey: Guid(cbf3b75432971c049b047738df4700c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileMap/colorpalette.prefab using Guid(cbf3b75432971c049b047738df4700c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7698b8bf8ae52014a84279a95dc0047b') in 0.004775 seconds 
-  Import took 0.013810 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007522 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.622 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3478 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 162.2 MB.
+System memory in use after: 162.4 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/TileMap/colors_3.asset
-  artifactKey: Guid(74e060d08ec0d7241b875cf41c850e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileMap/colors_3.asset using Guid(74e060d08ec0d7241b875cf41c850e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af7b3483cce7dea9d94db29041611b5f') in 0.061223 seconds 
-  Import took 0.067966 seconds .
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4097.
+Total: 3.965900 ms (FindLiveObjects: 0.380200 ms CreateObjectMapping: 0.227900 ms MarkObjects: 3.269200 ms  DeleteObjects: 0.087200 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000297 seconds.
-  path: Assets/TileMap/colors_4.asset
-  artifactKey: Guid(b050fdece3a7835449b78de7fd37dce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileMap/colors_4.asset using Guid(b050fdece3a7835449b78de7fd37dce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d169700eb502572becf308e19873ac2') in 0.016618 seconds 
-  Import took 0.023016 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/TileMap/colors_1.asset
-  artifactKey: Guid(baec1f51f80c27840a83d285c9f64788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileMap/colors_1.asset using Guid(baec1f51f80c27840a83d285c9f64788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06610c75cd67d4e5c4e78aef7a5263be') in 0.014501 seconds 
-  Import took 0.023861 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/TileMap/colors_0.asset
-  artifactKey: Guid(a24b2f3603d58ff4489b6eca60a23d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileMap/colors_0.asset using Guid(a24b2f3603d58ff4489b6eca60a23d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e81e2df1fcdaff10500e3aa4b157703') in 0.016056 seconds 
-  Import took 0.022711 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000361 seconds.
-  path: Assets/TileMap/colors_2.asset
-  artifactKey: Guid(f35253d80bde6a148b9fb4b00ed6dd93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileMap/colors_2.asset using Guid(f35253d80bde6a148b9fb4b00ed6dd93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adb02e9d63458fbf8dc51356a451d108') in 0.015387 seconds 
-  Import took 0.022543 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 58.059848 seconds.
-  path: Assets/TileMap/colorpalette.prefab
-  artifactKey: Guid(cbf3b75432971c049b047738df4700c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileMap/colorpalette.prefab using Guid(cbf3b75432971c049b047738df4700c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ccc755c7b6d6b471686fac8cc54deea') in 0.005372 seconds 
-  Import took 0.015251 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 181.693859 seconds.
-  path: Assets/_Images_UI/handwritten notes
-  artifactKey: Guid(27403c93390d4c942a1555df751356dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Images_UI/handwritten notes using Guid(27403c93390d4c942a1555df751356dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9972a91971a3a8f02e937977292f4df5') in 0.009990 seconds 
-  Import took 0.017914 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 429.777727 seconds.
-  path: Assets/TileMap/colors.png
-  artifactKey: Guid(585f5a2de64badc46acaf17d602dc477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileMap/colors.png using Guid(585f5a2de64badc46acaf17d602dc477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bea26a953ee7940c0ee27b48f593dbc') in 0.042056 seconds 
-  Import took 0.050785 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 48.624920 seconds.
-  path: Assets/TileMap/colorpalette.prefab
-  artifactKey: Guid(cbf3b75432971c049b047738df4700c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileMap/colorpalette.prefab using Guid(cbf3b75432971c049b047738df4700c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cbd991aa901bb81c33ec18e223bc9fb') in 0.009730 seconds 
-  Import took 0.019141 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/TileMap/colors.png
-  artifactKey: Guid(585f5a2de64badc46acaf17d602dc477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileMap/colors.png using Guid(585f5a2de64badc46acaf17d602dc477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '269739998b0c3969848b05c965e906e2') in 0.024041 seconds 
-  Import took 0.030690 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.062237 seconds.
-  path: Assets/TileMap/colorpalette.prefab
-  artifactKey: Guid(cbf3b75432971c049b047738df4700c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileMap/colorpalette.prefab using Guid(cbf3b75432971c049b047738df4700c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd0b0446de8b9986b07423fe9a14c925') in 0.004815 seconds 
-  Import took 0.011554 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.005825 seconds.
-  path: Assets/TileMap/colorpalette.prefab
-  artifactKey: Guid(cbf3b75432971c049b047738df4700c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileMap/colorpalette.prefab using Guid(cbf3b75432971c049b047738df4700c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3079e85b523839be4c6102298ddc3629') in 0.005204 seconds 
-  Import took 0.012531 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.283072 seconds.
-  path: Assets/TileMap/colorpalette.prefab
-  artifactKey: Guid(cbf3b75432971c049b047738df4700c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileMap/colorpalette.prefab using Guid(cbf3b75432971c049b047738df4700c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e73838dab3a412c7684be9b52ee291c') in 0.004200 seconds 
-  Import took 0.011789 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.901160 seconds.
-  path: Assets/TileMap/colorpalette.prefab
-  artifactKey: Guid(cbf3b75432971c049b047738df4700c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileMap/colorpalette.prefab using Guid(cbf3b75432971c049b047738df4700c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b16ad5a8d37efe77906fe74201d1970') in 0.004736 seconds 
-  Import took 0.012609 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.876699 seconds.
-  path: Assets/TileMap/colorpalette.prefab
-  artifactKey: Guid(cbf3b75432971c049b047738df4700c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileMap/colorpalette.prefab using Guid(cbf3b75432971c049b047738df4700c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd0e40d0a6f57a53fbaf8b2750cbbc43') in 0.004965 seconds 
-  Import took 0.012474 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/TileMap/colors_5.asset
-  artifactKey: Guid(87ece4ead52ec6541896fc7e21956207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileMap/colors_5.asset using Guid(87ece4ead52ec6541896fc7e21956207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '536889e408f996db3f1492e755a9e185') in 0.016793 seconds 
-  Import took 0.024819 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/TileMap/colors_6.asset
-  artifactKey: Guid(191ab971f79c5444d85bce3eafca9176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TileMap/colors_6.asset using Guid(191ab971f79c5444d85bce3eafca9176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a71cd820a616c417553edad3f3526ab') in 0.016382 seconds 
-  Import took 0.022437 seconds .
-
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

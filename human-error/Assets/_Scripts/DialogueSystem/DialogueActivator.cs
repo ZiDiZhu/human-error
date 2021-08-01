@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class DialogueActivator : MonoBehaviour, Interactable
 {
-    [SerializeField] private DialogueObject dialogueObject; //to add dialogue object in the inspector 
+    public DialogueObject dialogueObject; //to add dialogue object in the inspector 
 
     public void UpdateDialogueObject(DialogueObject dialogueObject)
     {

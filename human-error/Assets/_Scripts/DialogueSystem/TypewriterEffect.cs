@@ -41,16 +41,19 @@ public class TypewriterEffect : MonoBehaviour
           yield return null;
       }
 
-        typeSound?.Stop();
+        if (typeSound != null)
+        {
+            typeSound?.Stop();
+        }
         isPlayingSound = false;
         textLabel.text = textToType;
     }
 
     void PlayTypeSound()
     {
-        if (!isPlayingSound)
+        if (!isPlayingSound && typeSound != null)
         {
-            typeSound?.Play();
+            typeSound.Play();
             isPlayingSound = true;
         }
     }

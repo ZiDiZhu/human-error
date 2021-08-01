@@ -2,19 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Caption : MonoBehaviour
+public class OnTriggerActive : MonoBehaviour
 {
-    public GameObject caption;
+    //sets a thing active when in trigger collider
+
+    public GameObject thing;
 
     private void Start()
     {
-        caption.SetActive(false);
+        thing.SetActive(false);
     }
     private void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.CompareTag("Player"))
         {
-            caption.SetActive(true);
+            thing.SetActive(true);
+            Cursor.lockState = CursorLockMode.None; //if the thing is meant to be interactive
         }
     }
 
@@ -22,7 +25,7 @@ public class Caption : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            caption.SetActive(false);
+            thing.SetActive(false);
         }
     }
 }
