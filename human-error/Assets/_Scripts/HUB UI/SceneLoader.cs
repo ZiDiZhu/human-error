@@ -11,8 +11,12 @@ public class SceneLoader : MonoBehaviour
 
     private void Start()
     {
-        btn=GetComponent<Button>();
-        btn.onClick.AddListener(LoadScene);
+        if (btn!= null)
+        {
+            btn = GetComponent<Button>();
+            btn.onClick.AddListener(LoadScene);
+        }
+        
     }
 
     public void LoadScene()
