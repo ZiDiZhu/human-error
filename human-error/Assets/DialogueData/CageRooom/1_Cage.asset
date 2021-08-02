@@ -10,9 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f9b6bbe2a19e7ec48ad69c6bf92a40ae, type: 3}
-  m_Name: mattress-off
+  m_Name: 1_Cage
   m_EditorClassIdentifier: 
   dialogue:
-  - not bed time yet
-  - bed time is only after 8pm
+  - where did it go?
   responses: []

@@ -15,7 +15,10 @@ public class DialogueActivator : MonoBehaviour, Interactable
 
     void Start()
     {
-        dialogueIndicator.SetActive(false); // don't show the ? indicator
+        if (dialogueIndicator != null)
+        {
+            dialogueIndicator.SetActive(false);
+        }
     }
 
     public void Interact(Player player)
@@ -42,7 +45,13 @@ public class DialogueActivator : MonoBehaviour, Interactable
             }
 
             //sets up the ? indicator
-            dialogueIndicator.SetActive(true);
+            if(dialogueIndicator != null)
+            {
+                dialogueIndicator.SetActive(true);
+            }
+            
+
+
             dialogueIndicator.GetComponent<TextAnimator>().rotationSpeed = 0.5f;
         }
     }
@@ -51,7 +60,10 @@ public class DialogueActivator : MonoBehaviour, Interactable
     {
         if(Input.GetMouseButton(0) || Input.GetKey(KeyCode.E))
         {
-            dialogueIndicator.SetActive(false);
+            if (dialogueIndicator != null)
+            {
+                dialogueIndicator.SetActive(false);
+            }
 
         }
     }

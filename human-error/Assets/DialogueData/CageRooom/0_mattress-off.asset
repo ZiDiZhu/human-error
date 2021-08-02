@@ -10,10 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f9b6bbe2a19e7ec48ad69c6bf92a40ae, type: 3}
-  m_Name: pc_off
+  m_Name: 0_mattress-off
   m_EditorClassIdentifier: 
   dialogue:
-  - this is where you work, usually
-  - 'but today is your day off '
-  - so try to pass the time before your work starts
+  - not bed time yet
+  - bed time is only after 8pm
   responses: []

@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f9b6bbe2a19e7ec48ad69c6bf92a40ae, type: 3}
-  m_Name: Cage0
+  m_Name: 0_mattress-on
   m_EditorClassIdentifier: 
   dialogue:
-  - '"Bb''s room."'
-  - ...
-  - '*It was once Bb''s room.'
-  - 
-  - What happened to Bb?
-  responses: []
+  - go to sleep?
+  responses:
+  - responseText: yes
+    dialogueObject: {fileID: 0}
+  - responseText: not yet
+    dialogueObject: {fileID: 0}
