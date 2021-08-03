@@ -2,6 +2,33 @@
     "name": "PlayerMovement2D",
     "maps": [
         {
+            "name": "new",
+            "id": "9470bda0-3dd7-4a6c-95cb-758fba626a9c",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "1b5425fb-c1d9-4276-bdae-6b41f8a06635",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "559892a5-1fc6-4e5b-9ed4-a2450722c749",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Main",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
             "name": "main",
             "id": "76e71659-bb4a-46e8-9218-c546cf259db2",
             "actions": [
@@ -128,5 +155,11 @@
             ]
         }
     ],
-    "controlSchemes": []
+    "controlSchemes": [
+        {
+            "name": "Main",
+            "bindingGroup": "Main",
+            "devices": []
+        }
+    ]
 }

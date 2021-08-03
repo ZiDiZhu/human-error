@@ -29,4 +29,5 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Rooms/CageRoom1.unity
     guid: 30a0bff51c6512548bcb9d5e4aa85727
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 0779f95da579c6c4aa747e45e8200df2, type: 2}
