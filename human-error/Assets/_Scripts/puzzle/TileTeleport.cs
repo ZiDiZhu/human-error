@@ -5,10 +5,19 @@ using UnityEngine.Tilemaps;
 
 public class TileTeleport : MonoBehaviour
 {
+    /// <summary>
+    ///  This code should be attached to an empty child to the tilemap that contains a single tile
+    /// </summary>
+    /// 
+
     public GameObject destinationTile;
     public GameObject avatar;
 
     public Tilemap myMap;
+
+    public Tilemap exitTile;
+
+    public Tilemap groundTilemap; //to block the road after the player was on it
 
 
     //public GameObject child; //black tile blocker
@@ -17,56 +26,76 @@ public class TileTeleport : MonoBehaviour
 
     public bool isDead = false;
 
+    [SerializeField]Vector3Int gridPosition;
+
     private void Start()
     {
         //TeleportToDestination();
+        myMap = this.transform.parent.GetComponent<Tilemap>();
     }
 
     private void Update()
     {
-        if(destinationTile != null)
+        if (Input.anyKeyDown)
         {
-            CheckIfCanTeleport();
+            Debug.Log("A key or mouse click has been detected");
+            if (destinationTile != null)
+            {
+                CheckIfCanTeleport();
+            }
+            else
+            {
+                Debug.Log("no destination");
+            }
         }
-        else
-        {
-            Debug.Log("no destination");
-        }
+
+        
         
     }
 
 
     private void CheckIfCanTeleport()
     {
-        Vector3Int gridPosition = myMap.WorldToCell(avatar.transform.position);
+        gridPosition = myMap.WorldToCell(avatar.transform.position);
 
-        if (!myMap.HasTile(gridPosition))
+        //if on exit tile
+        if (exitTile.HasTile(exitTile.WorldToCell(gridPosition)))
+        {
+            Debug.Log("WINNNN");
+        }
+
+
+        if (!myMap.HasTile(gridPosition))//not on tile
         {
             //do nothing
         }
-        else
+        else//ontile
         {
-            TeleportToDestination();
-            destinationTile.GetComponent<TileTeleport>().isDead = true;
-            this.gameObject.SetActive(false);
+            if (!isDead)
+            {
+                TeleportToDestination();
+            }
+            
         }
     }
 
     private void TeleportToDestination()
     {
-        if (!isDead)
+        if (!destinationTile.GetComponent<TileTeleport>().isDead)
         {
+            groundTilemap.SetTile(gridPosition, null);//disable road
             Vector3Int goal = myMap.WorldToCell(destinationTile.transform.position);
             avatar.transform.position = myMap.GetCellCenterWorld(goal);
+            this.transform.parent.gameObject.GetComponent<TilemapRenderer>().enabled = false;
+            destinationTile.GetComponent<TileTeleport>().isDead = true;
+            
+            isDead = true;
+            
         }
         else
         {
-            //check if next tile is available
+            
         }
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-
-    }
 }
