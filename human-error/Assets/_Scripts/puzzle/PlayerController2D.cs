@@ -33,7 +33,6 @@ public class PlayerController2D : MonoBehaviour
         Vector3Int gridPosition = groundTilemap.WorldToCell(transform.position + (Vector3)direction);
         //direction itself is vector2 so it has to be a vector3 first
 
-
         
         if (!groundTilemap.HasTile(gridPosition) || collisionTilemap.HasTile(gridPosition))
         {

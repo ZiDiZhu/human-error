@@ -15,33 +15,6 @@ public class @PlayerMovement2D : IInputActionCollection, IDisposable
     ""name"": ""PlayerMovement2D"",
     ""maps"": [
         {
-            ""name"": ""new"",
-            ""id"": ""9470bda0-3dd7-4a6c-95cb-758fba626a9c"",
-            ""actions"": [
-                {
-                    ""name"": ""New action"",
-                    ""type"": ""Button"",
-                    ""id"": ""1b5425fb-c1d9-4276-bdae-6b41f8a06635"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """"
-                }
-            ],
-            ""bindings"": [
-                {
-                    ""name"": """",
-                    ""id"": ""559892a5-1fc6-4e5b-9ed4-a2450722c749"",
-                    ""path"": """",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Main"",
-                    ""action"": ""New action"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                }
-            ]
-        },
-        {
             ""name"": ""main"",
             ""id"": ""76e71659-bb4a-46e8-9218-c546cf259db2"",
             ""actions"": [
@@ -176,9 +149,6 @@ public class @PlayerMovement2D : IInputActionCollection, IDisposable
         }
     ]
 }");
-        // new
-        m_new = asset.FindActionMap("new", throwIfNotFound: true);
-        m_new_Newaction = m_new.FindAction("New action", throwIfNotFound: true);
         // main
         m_main = asset.FindActionMap("main", throwIfNotFound: true);
         m_main_movement = m_main.FindAction("movement", throwIfNotFound: true);
@@ -228,39 +198,6 @@ public class @PlayerMovement2D : IInputActionCollection, IDisposable
         asset.Disable();
     }
 
-    // new
-    private readonly InputActionMap m_new;
-    private INewActions m_NewActionsCallbackInterface;
-    private readonly InputAction m_new_Newaction;
-    public struct NewActions
-    {
-        private @PlayerMovement2D m_Wrapper;
-        public NewActions(@PlayerMovement2D wrapper) { m_Wrapper = wrapper; }
-        public InputAction @Newaction => m_Wrapper.m_new_Newaction;
-        public InputActionMap Get() { return m_Wrapper.m_new; }
-        public void Enable() { Get().Enable(); }
-        public void Disable() { Get().Disable(); }
-        public bool enabled => Get().enabled;
-        public static implicit operator InputActionMap(NewActions set) { return set.Get(); }
-        public void SetCallbacks(INewActions instance)
-        {
-            if (m_Wrapper.m_NewActionsCallbackInterface != null)
-            {
-                @Newaction.started -= m_Wrapper.m_NewActionsCallbackInterface.OnNewaction;
-                @Newaction.performed -= m_Wrapper.m_NewActionsCallbackInterface.OnNewaction;
-                @Newaction.canceled -= m_Wrapper.m_NewActionsCallbackInterface.OnNewaction;
-            }
-            m_Wrapper.m_NewActionsCallbackInterface = instance;
-            if (instance != null)
-            {
-                @Newaction.started += instance.OnNewaction;
-                @Newaction.performed += instance.OnNewaction;
-                @Newaction.canceled += instance.OnNewaction;
-            }
-        }
-    }
-    public NewActions @new => new NewActions(this);
-
     // main
     private readonly InputActionMap m_main;
     private IMainActions m_MainActionsCallbackInterface;
@@ -301,10 +238,6 @@ public class @PlayerMovement2D : IInputActionCollection, IDisposable
             if (m_MainSchemeIndex == -1) m_MainSchemeIndex = asset.FindControlSchemeIndex("Main");
             return asset.controlSchemes[m_MainSchemeIndex];
         }
-    }
-    public interface INewActions
-    {
-        void OnNewaction(InputAction.CallbackContext context);
     }
     public interface IMainActions
     {
