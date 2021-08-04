@@ -20,11 +20,12 @@ public class TileTeleport : MonoBehaviour
     public Tilemap groundTilemap; //to block the road after the player was on it
 
 
-    //public GameObject child; //black tile blocker
-
-    public GameObject retryButton;
+    public AudioSource sfx_teleport;
+    public AudioSource sfx_win;
 
     public bool isDead = false;
+
+    public GameObject btn_nextlevel;
 
     [SerializeField]Vector3Int gridPosition;
 
@@ -32,6 +33,12 @@ public class TileTeleport : MonoBehaviour
     {
         //TeleportToDestination();
         myMap = this.transform.parent.GetComponent<Tilemap>();
+        sfx_teleport = GetComponent<AudioSource>();
+        if (btn_nextlevel)
+        {
+            btn_nextlevel.SetActive(false);
+        }
+        
     }
 
     private void Update()
@@ -62,6 +69,14 @@ public class TileTeleport : MonoBehaviour
         if (exitTile.HasTile(exitTile.WorldToCell(gridPosition)))
         {
             Debug.Log("WINNNN");
+            if(sfx_win != null)
+            {
+                sfx_win.Play();
+            }
+            if(btn_nextlevel != null)
+            {
+                btn_nextlevel.SetActive(true);
+            }
         }
 
 
@@ -88,7 +103,7 @@ public class TileTeleport : MonoBehaviour
             avatar.transform.position = myMap.GetCellCenterWorld(goal);
             this.transform.parent.gameObject.GetComponent<TilemapRenderer>().enabled = false;
             destinationTile.GetComponent<TileTeleport>().isDead = true;
-            
+            sfx_teleport.Play();
             isDead = true;
             
         }

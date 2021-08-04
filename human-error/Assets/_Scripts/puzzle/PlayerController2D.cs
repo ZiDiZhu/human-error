@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
+using UnityEngine.Audio;
+using UnityEngine.UI;
 
 public class PlayerController2D : MonoBehaviour
 {
@@ -10,9 +12,13 @@ public class PlayerController2D : MonoBehaviour
     [SerializeField] private Tilemap groundTilemap;
     [SerializeField] private Tilemap collisionTilemap;
 
+    public AudioSource sfx_move;
+    
+
     private void Awake()
     {
         controls = new PlayerMovement2D();
+        sfx_move = GetComponent<AudioSource>();
     }
     void Start()
     {
@@ -25,6 +31,7 @@ public class PlayerController2D : MonoBehaviour
         if (CanMove(direction))
         {
             transform.position += (Vector3)direction;
+            sfx_move.Play();
         }
     }
 
