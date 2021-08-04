@@ -26,6 +26,7 @@ public class TileTeleport : MonoBehaviour
     public bool isDead = false;
 
     public GameObject btn_nextlevel;
+    public GameObject btn_retry;
 
     [SerializeField]Vector3Int gridPosition;
 
@@ -38,7 +39,11 @@ public class TileTeleport : MonoBehaviour
         {
             btn_nextlevel.SetActive(false);
         }
-        
+        if (btn_retry)
+        {
+            btn_retry.SetActive(true);
+        }
+
     }
 
     private void Update()
@@ -73,7 +78,12 @@ public class TileTeleport : MonoBehaviour
             {
                 sfx_win.Play();
             }
-            if(btn_nextlevel != null)
+            if (btn_retry)
+            {
+                btn_retry.SetActive(false);
+            }
+
+            if (btn_nextlevel != null)
             {
                 btn_nextlevel.SetActive(true);
             }

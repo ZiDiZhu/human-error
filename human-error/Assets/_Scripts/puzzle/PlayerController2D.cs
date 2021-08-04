@@ -13,7 +13,7 @@ public class PlayerController2D : MonoBehaviour
     [SerializeField] private Tilemap collisionTilemap;
 
     public AudioSource sfx_move;
-    
+    public AudioSource sfx_cannotmove;
 
     private void Awake()
     {
@@ -32,6 +32,10 @@ public class PlayerController2D : MonoBehaviour
         {
             transform.position += (Vector3)direction;
             sfx_move.Play();
+        }
+        else
+        {
+            sfx_cannotmove.Play();
         }
     }
 
