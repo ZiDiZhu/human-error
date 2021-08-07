@@ -29,5 +29,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Rooms/CageRoom1.unity
     guid: 30a0bff51c6512548bcb9d5e4aa85727
+  - enabled: 1
+    path: Assets/Scenes/Puzzles/Puzzle2.unity
+    guid: c6f8346ba0b095645b934d6cfd4a7e95
+  - enabled: 1
+    path: Assets/Scenes/Puzzles/Puzzle1.unity
+    guid: beff61544f7ba6f47b51202135a73d2e
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 0779f95da579c6c4aa747e45e8200df2, type: 2}
