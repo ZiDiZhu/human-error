@@ -52,7 +52,7 @@ public class DialogueActivator : MonoBehaviour, Interactable
             
 
 
-            dialogueIndicator.GetComponent<TextAnimator>().rotationSpeed = 0.5f;
+            //dialogueIndicator.GetComponent<TextAnimator>().rotationSpeed = 0.5f;
         }
     }
 
@@ -80,8 +80,10 @@ public class DialogueActivator : MonoBehaviour, Interactable
                 }
             }
 
-            //dialogueIndicator.SetActive(false);
-            dialogueIndicator.GetComponent<TextAnimator>().rotationSpeed = 0f;
+            if (dialogueIndicator != null)
+            {
+                dialogueIndicator.SetActive(false);
+            }
         }
     }
 }
