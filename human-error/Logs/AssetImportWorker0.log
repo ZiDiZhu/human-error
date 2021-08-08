@@ -1385,3 +1385,836 @@ Received Import Request.
 Start importing Assets/DialogueData/mirror room/0_mirror.asset using Guid(5c86e7ef8cc584d43b7433ae092be1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a63ccaad2b2efc547bfcdfd6d3dc6b1') in 0.003209 seconds 
   Import took 0.011578 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006131 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.310 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3874 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.2 MB.
+System memory in use after: 186.5 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4804.
+Total: 4.638900 ms (FindLiveObjects: 0.475400 ms CreateObjectMapping: 0.348300 ms MarkObjects: 3.686700 ms  DeleteObjects: 0.127100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005428 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.289 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3874 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.2 MB.
+System memory in use after: 186.5 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4807.
+Total: 5.684800 ms (FindLiveObjects: 0.996400 ms CreateObjectMapping: 0.500700 ms MarkObjects: 4.083100 ms  DeleteObjects: 0.103000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 340.856390 seconds.
+  path: Assets/DialogueData/mirror room
+  artifactKey: Guid(55cd1b181dc7c4542b5e3370973cb28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData/mirror room using Guid(55cd1b181dc7c4542b5e3370973cb28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3249de304c3cd29bab82201f415a3158') in 0.012495 seconds 
+  Import took 0.020077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.185588 seconds.
+  path: Assets/DialogueData/mirror room/mirror1.asset
+  artifactKey: Guid(59c26df487e098145b269a2de7df7513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData/mirror room/mirror1.asset using Guid(59c26df487e098145b269a2de7df7513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6205f96f76d26cc0254c5d7668102609') in 0.015275 seconds 
+  Import took 0.022405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 873.182726 seconds.
+  path: Assets/DialogueData/mirror room/mirror1.asset
+  artifactKey: Guid(59c26df487e098145b269a2de7df7513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData/mirror room/mirror1.asset using Guid(59c26df487e098145b269a2de7df7513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a28d29bfa8fe8ab0d22e1fb5040dcb') in 0.004753 seconds 
+  Import took 0.018310 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005449 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.316 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3874 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.3 MB.
+System memory in use after: 186.5 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4810.
+Total: 4.050100 ms (FindLiveObjects: 0.498100 ms CreateObjectMapping: 0.160200 ms MarkObjects: 3.272200 ms  DeleteObjects: 0.118600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 86.978652 seconds.
+  path: Assets/DialogueData/mirror room/mirror1.asset
+  artifactKey: Guid(59c26df487e098145b269a2de7df7513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData/mirror room/mirror1.asset using Guid(59c26df487e098145b269a2de7df7513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '216b4cf56b606be329cbfd585b2296da') in 0.036765 seconds 
+  Import took 0.044398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.820194 seconds.
+  path: Assets/DialogueData/mirror room/mirror1.asset
+  artifactKey: Guid(59c26df487e098145b269a2de7df7513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData/mirror room/mirror1.asset using Guid(59c26df487e098145b269a2de7df7513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a99c818c5bc7eec9b0c6e326de879ef') in 0.004613 seconds 
+  Import took 0.012421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004051 seconds.
+  path: Assets/DialogueData/mirror room/mirror1.asset
+  artifactKey: Guid(59c26df487e098145b269a2de7df7513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData/mirror room/mirror1.asset using Guid(59c26df487e098145b269a2de7df7513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a99c818c5bc7eec9b0c6e326de879ef') in 0.004198 seconds 
+  Import took 0.013837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 85.111083 seconds.
+  path: Assets/DialogueData/mirror room/mirror1.asset
+  artifactKey: Guid(59c26df487e098145b269a2de7df7513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData/mirror room/mirror1.asset using Guid(59c26df487e098145b269a2de7df7513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c001b0142da78ac9adc18cc06c57eb') in 0.004506 seconds 
+  Import took 0.014122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005559 seconds.
+  path: Assets/DialogueData/mirror room/mirror1.asset
+  artifactKey: Guid(59c26df487e098145b269a2de7df7513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData/mirror room/mirror1.asset using Guid(59c26df487e098145b269a2de7df7513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c001b0142da78ac9adc18cc06c57eb') in 0.005313 seconds 
+  Import took 0.016867 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005635 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.409 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3874 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.3 MB.
+System memory in use after: 186.5 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4813.
+Total: 4.184400 ms (FindLiveObjects: 0.438700 ms CreateObjectMapping: 0.280000 ms MarkObjects: 3.365300 ms  DeleteObjects: 0.099500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 132.684389 seconds.
+  path: Assets/DialogueData/mirror room/mirror2.asset
+  artifactKey: Guid(2ef635df04e3b7d44b1efc0c2f600f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData/mirror room/mirror2.asset using Guid(2ef635df04e3b7d44b1efc0c2f600f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5c5402c63fb521e8ed5efb7f3a842b7') in 0.031614 seconds 
+  Import took 0.038131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.124752 seconds.
+  path: Assets/DialogueData/mirror room/mirror1.asset
+  artifactKey: Guid(59c26df487e098145b269a2de7df7513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData/mirror room/mirror1.asset using Guid(59c26df487e098145b269a2de7df7513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77bb9cea9db2dd2b25c3cbf39c34c9ef') in 0.005209 seconds 
+  Import took 0.013633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002228 seconds.
+  path: Assets/DialogueData/mirror room/mirror1.asset
+  artifactKey: Guid(59c26df487e098145b269a2de7df7513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData/mirror room/mirror1.asset using Guid(59c26df487e098145b269a2de7df7513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77bb9cea9db2dd2b25c3cbf39c34c9ef') in 0.004474 seconds 
+  Import took 0.013014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/DialogueData/mirror room/mirror2.asset
+  artifactKey: Guid(2ef635df04e3b7d44b1efc0c2f600f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData/mirror room/mirror2.asset using Guid(2ef635df04e3b7d44b1efc0c2f600f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6feb956610a4b7a17a49c855d444796f') in 0.003577 seconds 
+  Import took 0.013530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.955339 seconds.
+  path: Assets/DialogueData/mirror room/mirror1.asset
+  artifactKey: Guid(59c26df487e098145b269a2de7df7513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData/mirror room/mirror1.asset using Guid(59c26df487e098145b269a2de7df7513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72bae8ba4acd5cd2d73d249c3a5b2b05') in 0.004939 seconds 
+  Import took 0.013471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002625 seconds.
+  path: Assets/DialogueData/mirror room/mirror1.asset
+  artifactKey: Guid(59c26df487e098145b269a2de7df7513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData/mirror room/mirror1.asset using Guid(59c26df487e098145b269a2de7df7513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72bae8ba4acd5cd2d73d249c3a5b2b05') in 0.004677 seconds 
+  Import took 0.015652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 86.682375 seconds.
+  path: Assets/DialogueData/mirror room/mirror1.asset
+  artifactKey: Guid(59c26df487e098145b269a2de7df7513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData/mirror room/mirror1.asset using Guid(59c26df487e098145b269a2de7df7513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dec5b24f7a88b407e6bf361906616c32') in 0.004744 seconds 
+  Import took 0.014172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007091 seconds.
+  path: Assets/DialogueData/mirror room/mirror1.asset
+  artifactKey: Guid(59c26df487e098145b269a2de7df7513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData/mirror room/mirror1.asset using Guid(59c26df487e098145b269a2de7df7513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dec5b24f7a88b407e6bf361906616c32') in 0.004910 seconds 
+  Import took 0.013357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 97.497456 seconds.
+  path: Assets/DialogueData/mirror room/mirror1.asset
+  artifactKey: Guid(59c26df487e098145b269a2de7df7513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData/mirror room/mirror1.asset using Guid(59c26df487e098145b269a2de7df7513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89a9c0a548cf271f442309b11dd3f4f4') in 0.004449 seconds 
+  Import took 0.014295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004142 seconds.
+  path: Assets/DialogueData/mirror room/mirror1.asset
+  artifactKey: Guid(59c26df487e098145b269a2de7df7513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData/mirror room/mirror1.asset using Guid(59c26df487e098145b269a2de7df7513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89a9c0a548cf271f442309b11dd3f4f4') in 0.004977 seconds 
+  Import took 0.013934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.231605 seconds.
+  path: Assets/DialogueData/mirror room/mirror1.asset
+  artifactKey: Guid(59c26df487e098145b269a2de7df7513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData/mirror room/mirror1.asset using Guid(59c26df487e098145b269a2de7df7513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d67daae9c99ab8d20d7001ff6fb86b7') in 0.004769 seconds 
+  Import took 0.014334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008920 seconds.
+  path: Assets/DialogueData/mirror room/mirror1.asset
+  artifactKey: Guid(59c26df487e098145b269a2de7df7513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData/mirror room/mirror1.asset using Guid(59c26df487e098145b269a2de7df7513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d67daae9c99ab8d20d7001ff6fb86b7') in 0.004115 seconds 
+  Import took 0.012462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.436822 seconds.
+  path: Assets/DialogueData/mirror room/mirror1.asset
+  artifactKey: Guid(59c26df487e098145b269a2de7df7513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData/mirror room/mirror1.asset using Guid(59c26df487e098145b269a2de7df7513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b33e01b03841c0ece1be343bca1f303') in 0.004403 seconds 
+  Import took 0.013616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010125 seconds.
+  path: Assets/DialogueData/mirror room/mirror1.asset
+  artifactKey: Guid(59c26df487e098145b269a2de7df7513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData/mirror room/mirror1.asset using Guid(59c26df487e098145b269a2de7df7513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b33e01b03841c0ece1be343bca1f303') in 0.004768 seconds 
+  Import took 0.013028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.911463 seconds.
+  path: Assets/DialogueData/mirror room/mirror1.asset
+  artifactKey: Guid(59c26df487e098145b269a2de7df7513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData/mirror room/mirror1.asset using Guid(59c26df487e098145b269a2de7df7513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '874efe2cdd0912ae0aa6062380d5f44f') in 0.004715 seconds 
+  Import took 0.013633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004634 seconds.
+  path: Assets/DialogueData/mirror room/mirror1.asset
+  artifactKey: Guid(59c26df487e098145b269a2de7df7513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData/mirror room/mirror1.asset using Guid(59c26df487e098145b269a2de7df7513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '874efe2cdd0912ae0aa6062380d5f44f') in 0.004634 seconds 
+  Import took 0.013642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 163.260031 seconds.
+  path: Assets/DialogueData/mirror room/mirror2.asset
+  artifactKey: Guid(2ef635df04e3b7d44b1efc0c2f600f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData/mirror room/mirror2.asset using Guid(2ef635df04e3b7d44b1efc0c2f600f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c296bc5cba6ba1926e06a8a2c7141c0e') in 0.004827 seconds 
+  Import took 0.012364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003700 seconds.
+  path: Assets/DialogueData/mirror room/mirror2.asset
+  artifactKey: Guid(2ef635df04e3b7d44b1efc0c2f600f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData/mirror room/mirror2.asset using Guid(2ef635df04e3b7d44b1efc0c2f600f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c296bc5cba6ba1926e06a8a2c7141c0e') in 0.004232 seconds 
+  Import took 0.016358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.222219 seconds.
+  path: Assets/DialogueData/mirror room/mirror2.asset
+  artifactKey: Guid(2ef635df04e3b7d44b1efc0c2f600f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData/mirror room/mirror2.asset using Guid(2ef635df04e3b7d44b1efc0c2f600f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b83c49cbebab638c292504a3f5fef7a0') in 0.006023 seconds 
+  Import took 0.017218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001091 seconds.
+  path: Assets/DialogueData/mirror room/mirror2.asset
+  artifactKey: Guid(2ef635df04e3b7d44b1efc0c2f600f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData/mirror room/mirror2.asset using Guid(2ef635df04e3b7d44b1efc0c2f600f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b83c49cbebab638c292504a3f5fef7a0') in 0.004738 seconds 
+  Import took 0.014065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.244403 seconds.
+  path: Assets/DialogueData/mirror room/mirror2.asset
+  artifactKey: Guid(2ef635df04e3b7d44b1efc0c2f600f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData/mirror room/mirror2.asset using Guid(2ef635df04e3b7d44b1efc0c2f600f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdb54fe225d852de20095450cfb81a4b') in 0.004836 seconds 
+  Import took 0.017270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.802148 seconds.
+  path: Assets/DialogueData/mirror room/mirror2.asset
+  artifactKey: Guid(2ef635df04e3b7d44b1efc0c2f600f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData/mirror room/mirror2.asset using Guid(2ef635df04e3b7d44b1efc0c2f600f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c3aefd7a84a10aed9b369860261b467') in 0.004274 seconds 
+  Import took 0.012098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003012 seconds.
+  path: Assets/DialogueData/mirror room/mirror2.asset
+  artifactKey: Guid(2ef635df04e3b7d44b1efc0c2f600f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData/mirror room/mirror2.asset using Guid(2ef635df04e3b7d44b1efc0c2f600f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c3aefd7a84a10aed9b369860261b467') in 0.004816 seconds 
+  Import took 0.014217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.385795 seconds.
+  path: Assets/DialogueData/mirror room/mirror2.asset
+  artifactKey: Guid(2ef635df04e3b7d44b1efc0c2f600f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData/mirror room/mirror2.asset using Guid(2ef635df04e3b7d44b1efc0c2f600f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f233478b23e75fe84ff958101d58d34') in 0.005357 seconds 
+  Import took 0.014958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005020 seconds.
+  path: Assets/DialogueData/mirror room/mirror2.asset
+  artifactKey: Guid(2ef635df04e3b7d44b1efc0c2f600f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData/mirror room/mirror2.asset using Guid(2ef635df04e3b7d44b1efc0c2f600f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f233478b23e75fe84ff958101d58d34') in 0.004805 seconds 
+  Import took 0.013838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 244.567865 seconds.
+  path: Assets/DialogueData/mirror room/mirror2.asset
+  artifactKey: Guid(2ef635df04e3b7d44b1efc0c2f600f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData/mirror room/mirror2.asset using Guid(2ef635df04e3b7d44b1efc0c2f600f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ecc38855770f36c71842aa738121f0') in 0.005225 seconds 
+  Import took 0.012573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002870 seconds.
+  path: Assets/DialogueData/mirror room/mirror2.asset
+  artifactKey: Guid(2ef635df04e3b7d44b1efc0c2f600f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData/mirror room/mirror2.asset using Guid(2ef635df04e3b7d44b1efc0c2f600f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ecc38855770f36c71842aa738121f0') in 0.004531 seconds 
+  Import took 0.014147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.311573 seconds.
+  path: Assets/DialogueData/mirror room/mirror2.asset
+  artifactKey: Guid(2ef635df04e3b7d44b1efc0c2f600f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData/mirror room/mirror2.asset using Guid(2ef635df04e3b7d44b1efc0c2f600f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00b02b9dfd729e02bfb1b8dc2e49d687') in 0.003747 seconds 
+  Import took 0.012422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003861 seconds.
+  path: Assets/DialogueData/mirror room/mirror2.asset
+  artifactKey: Guid(2ef635df04e3b7d44b1efc0c2f600f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData/mirror room/mirror2.asset using Guid(2ef635df04e3b7d44b1efc0c2f600f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00b02b9dfd729e02bfb1b8dc2e49d687') in 0.004644 seconds 
+  Import took 0.014727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 212.528126 seconds.
+  path: Assets/DialogueData/mirror room/mirror2.asset
+  artifactKey: Guid(2ef635df04e3b7d44b1efc0c2f600f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData/mirror room/mirror2.asset using Guid(2ef635df04e3b7d44b1efc0c2f600f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2332aec61d84d5799812d0fe51f75ef') in 0.004799 seconds 
+  Import took 0.015105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001826 seconds.
+  path: Assets/DialogueData/mirror room/mirror2.asset
+  artifactKey: Guid(2ef635df04e3b7d44b1efc0c2f600f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData/mirror room/mirror2.asset using Guid(2ef635df04e3b7d44b1efc0c2f600f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2332aec61d84d5799812d0fe51f75ef') in 0.005073 seconds 
+  Import took 0.014952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 105.367140 seconds.
+  path: Assets/DialogueData/mirror room/mirror2.asset
+  artifactKey: Guid(2ef635df04e3b7d44b1efc0c2f600f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData/mirror room/mirror2.asset using Guid(2ef635df04e3b7d44b1efc0c2f600f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3e7689d961d973efe556066dc5f614c') in 0.005608 seconds 
+  Import took 0.014940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007476 seconds.
+  path: Assets/DialogueData/mirror room/mirror2.asset
+  artifactKey: Guid(2ef635df04e3b7d44b1efc0c2f600f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData/mirror room/mirror2.asset using Guid(2ef635df04e3b7d44b1efc0c2f600f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3e7689d961d973efe556066dc5f614c') in 0.004239 seconds 
+  Import took 0.014970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.167429 seconds.
+  path: Assets/DialogueData/mirror room/mirror3_brain.asset
+  artifactKey: Guid(de362aa1c72362a4e9c4ee47e89e7cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData/mirror room/mirror3_brain.asset using Guid(de362aa1c72362a4e9c4ee47e89e7cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e4ae9956126a77a14b6fea19ceff8c1') in 0.008438 seconds 
+  Import took 0.015903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003406 seconds.
+  path: Assets/DialogueData/mirror room/mirror3_brain.asset
+  artifactKey: Guid(de362aa1c72362a4e9c4ee47e89e7cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData/mirror room/mirror3_brain.asset using Guid(de362aa1c72362a4e9c4ee47e89e7cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e4ae9956126a77a14b6fea19ceff8c1') in 0.004273 seconds 
+  Import took 0.012036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 122.705629 seconds.
+  path: Assets/DialogueData/mirror room/mirror3_brain.asset
+  artifactKey: Guid(de362aa1c72362a4e9c4ee47e89e7cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData/mirror room/mirror3_brain.asset using Guid(de362aa1c72362a4e9c4ee47e89e7cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f48d97b8ad0d4b84925e29334217d6e') in 0.004376 seconds 
+  Import took 0.014853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002086 seconds.
+  path: Assets/DialogueData/mirror room/mirror3_brain.asset
+  artifactKey: Guid(de362aa1c72362a4e9c4ee47e89e7cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData/mirror room/mirror3_brain.asset using Guid(de362aa1c72362a4e9c4ee47e89e7cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f48d97b8ad0d4b84925e29334217d6e') in 0.004772 seconds 
+  Import took 0.014882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 157.338017 seconds.
+  path: Assets/DialogueData/mirror room/mirror3_brain.asset
+  artifactKey: Guid(de362aa1c72362a4e9c4ee47e89e7cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData/mirror room/mirror3_brain.asset using Guid(de362aa1c72362a4e9c4ee47e89e7cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5381922fc5733c90963376fefa055ed') in 0.004831 seconds 
+  Import took 0.015345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002422 seconds.
+  path: Assets/DialogueData/mirror room/mirror3_brain.asset
+  artifactKey: Guid(de362aa1c72362a4e9c4ee47e89e7cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData/mirror room/mirror3_brain.asset using Guid(de362aa1c72362a4e9c4ee47e89e7cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5381922fc5733c90963376fefa055ed') in 0.004514 seconds 
+  Import took 0.013054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.099403 seconds.
+  path: Assets/DialogueData/mirror room/mirror3_brain.asset
+  artifactKey: Guid(de362aa1c72362a4e9c4ee47e89e7cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData/mirror room/mirror3_brain.asset using Guid(de362aa1c72362a4e9c4ee47e89e7cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db33c18263dab665e991022de0df22c7') in 0.004073 seconds 
+  Import took 0.014932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006658 seconds.
+  path: Assets/DialogueData/mirror room/mirror3_brain.asset
+  artifactKey: Guid(de362aa1c72362a4e9c4ee47e89e7cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData/mirror room/mirror3_brain.asset using Guid(de362aa1c72362a4e9c4ee47e89e7cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db33c18263dab665e991022de0df22c7') in 0.004758 seconds 
+  Import took 0.012502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.632177 seconds.
+  path: Assets/DialogueData/mirror room/mirror3_brain.asset
+  artifactKey: Guid(de362aa1c72362a4e9c4ee47e89e7cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData/mirror room/mirror3_brain.asset using Guid(de362aa1c72362a4e9c4ee47e89e7cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ebd886b320b630820c78479799c7696') in 0.004193 seconds 
+  Import took 0.017663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.430935 seconds.
+  path: Assets/DialogueData/mirror room/mirror3_brain.asset
+  artifactKey: Guid(de362aa1c72362a4e9c4ee47e89e7cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData/mirror room/mirror3_brain.asset using Guid(de362aa1c72362a4e9c4ee47e89e7cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77c21dea61070ef00f37bc37a3a2d1da') in 0.005068 seconds 
+  Import took 0.015408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002776 seconds.
+  path: Assets/DialogueData/mirror room/mirror3_brain.asset
+  artifactKey: Guid(de362aa1c72362a4e9c4ee47e89e7cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData/mirror room/mirror3_brain.asset using Guid(de362aa1c72362a4e9c4ee47e89e7cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77c21dea61070ef00f37bc37a3a2d1da') in 0.004682 seconds 
+  Import took 0.012975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 128.247568 seconds.
+  path: Assets/DialogueData/mirror room/mirror3_brain.asset
+  artifactKey: Guid(de362aa1c72362a4e9c4ee47e89e7cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData/mirror room/mirror3_brain.asset using Guid(de362aa1c72362a4e9c4ee47e89e7cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c12137df07efe47fafb55ae763820f10') in 0.005329 seconds 
+  Import took 0.014253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005735 seconds.
+  path: Assets/DialogueData/mirror room/mirror3_brain.asset
+  artifactKey: Guid(de362aa1c72362a4e9c4ee47e89e7cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueData/mirror room/mirror3_brain.asset using Guid(de362aa1c72362a4e9c4ee47e89e7cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c12137df07efe47fafb55ae763820f10') in 0.004699 seconds 
+  Import took 0.013466 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.176271 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.772 seconds
+Platform modules already initialized, skipping
+Script is not up to date after domain reload: guid(eef64875e06b15641b3bd075adf97463) path("Assets/_Scripts/Rotator.cs") state(2)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3874 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.3 MB.
+System memory in use after: 186.5 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4816.
+Total: 3.634300 ms (FindLiveObjects: 0.463700 ms CreateObjectMapping: 0.229100 ms MarkObjects: 2.803700 ms  DeleteObjects: 0.136600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008810 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.397 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3875 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.3 MB.
+System memory in use after: 186.6 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4820.
+Total: 5.921600 ms (FindLiveObjects: 0.678000 ms CreateObjectMapping: 0.278100 ms MarkObjects: 4.824500 ms  DeleteObjects: 0.138600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 203.270236 seconds.
+  path: Assets/_Scripts/Rotator.cs
+  artifactKey: Guid(eef64875e06b15641b3bd075adf97463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Rotator.cs using Guid(eef64875e06b15641b3bd075adf97463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6fe2df5a461a2e45ed6c17e95efea27') in 0.026469 seconds 
+  Import took 0.038478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.528615 seconds.
+  path: Assets/_Scripts/Rotator.cs
+  artifactKey: Guid(eef64875e06b15641b3bd075adf97463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/Rotator.cs using Guid(eef64875e06b15641b3bd075adf97463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '102c3c18e6e1b1bc415bbd56caee7cac') in 0.007171 seconds 
+  Import took 0.019200 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006645 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.467 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3875 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.4 MB.
+System memory in use after: 186.6 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4823.
+Total: 3.720500 ms (FindLiveObjects: 0.484100 ms CreateObjectMapping: 0.229100 ms MarkObjects: 2.891300 ms  DeleteObjects: 0.114400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005373 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.337 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3875 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.4 MB.
+System memory in use after: 186.6 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4826.
+Total: 4.141600 ms (FindLiveObjects: 0.482700 ms CreateObjectMapping: 0.242100 ms MarkObjects: 3.269100 ms  DeleteObjects: 0.146500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005327 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.391 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3875 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.4 MB.
+System memory in use after: 186.6 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4829.
+Total: 4.018100 ms (FindLiveObjects: 0.423100 ms CreateObjectMapping: 0.274800 ms MarkObjects: 3.220400 ms  DeleteObjects: 0.098500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006268 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.311 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3875 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.4 MB.
+System memory in use after: 186.6 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4832.
+Total: 3.721700 ms (FindLiveObjects: 0.488300 ms CreateObjectMapping: 0.193300 ms MarkObjects: 2.887800 ms  DeleteObjects: 0.151500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006347 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.340 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3875 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.4 MB.
+System memory in use after: 186.6 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4835.
+Total: 4.065200 ms (FindLiveObjects: 0.552100 ms CreateObjectMapping: 0.269700 ms MarkObjects: 3.116400 ms  DeleteObjects: 0.125900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005560 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.535 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3875 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.4 MB.
+System memory in use after: 186.6 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4838.
+Total: 5.088100 ms (FindLiveObjects: 0.515300 ms CreateObjectMapping: 0.322900 ms MarkObjects: 4.145400 ms  DeleteObjects: 0.103300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9b6bbe2a19e7ec48ad69c6bf92a40ae, type: 3}
+  m_Name: mirror2
+  m_EditorClassIdentifier: 
+  dialogue:
+  - i no longer have my body,
+  - 'they got rid of it. '
+  - but I know that they kept yours
+  - i can see it through a monitor view
+  - i bet you haven't seen it in a while.
+  - I'll stream it to you, hope you don't get too excited.
+  responses:
+  - responseText: '>>'
+    dialogueObject: {fileID: 0}
