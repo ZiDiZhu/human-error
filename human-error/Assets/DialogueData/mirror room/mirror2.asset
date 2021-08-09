@@ -18,7 +18,9 @@ MonoBehaviour:
   - but I know that they kept yours
   - i can see it through a monitor view
   - i bet you haven't seen it in a while.
-  - I'll stream it to you, hope you don't get too excited.
+  - 'do you want to see it?
+
+    I''ll stream it to you.'
   responses:
   - responseText: '>>'
     dialogueObject: {fileID: 0}

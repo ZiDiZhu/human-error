@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9b6bbe2a19e7ec48ad69c6bf92a40ae, type: 3}
+  m_Name: mirror6
+  m_EditorClassIdentifier: 
+  dialogue:
+  - 'but now i understand exactly how you felt,
+
+    each time you felt powerless
+    to the impossibility of understanding someone and be understood '
+  - 'this no longer has to be,
+
+    real connection is now'
+  - see,
+  - there's no more gap between where you end and i begin
+  - '*change a setting where the player opens menu, "escape is an option" changes
+    to "do you want to go?"'
+  - and opens a tunnel if the player says yes
+  responses: []

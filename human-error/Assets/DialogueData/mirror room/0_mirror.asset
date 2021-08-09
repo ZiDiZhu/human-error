@@ -13,10 +13,13 @@ MonoBehaviour:
   m_Name: 0_mirror
   m_EditorClassIdentifier: 
   dialogue:
-  - somethings's weird
-  - there might be something wrong with the mirror
-  - or not
-  - it might be you.
+  - 'hey,sorry, i don''t remember how objects looked like, '
+  - so a mirror was the best i can do to make myself visible from the world
+  - 'hm?
+
+    you''re saying there''s something wrong with the mirror?'
+  - not really, the mirror is fine
+  - it's you
   - do you still remember what you look like?
   responses:
   - responseText: '>>'
