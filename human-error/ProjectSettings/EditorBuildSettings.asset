@@ -38,5 +38,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Desktop.unity
     guid: 63402316f4e9b404495d9a47085b64b3
+  - enabled: 1
+    path: Assets/Scenes/Log In.unity
+    guid: ff6a9467f6fab314ba73a0857d04a83e
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 0779f95da579c6c4aa747e45e8200df2, type: 2}
