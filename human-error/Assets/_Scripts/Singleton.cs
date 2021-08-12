@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameManager : MonoBehaviour
+public class Singleton : MonoBehaviour
 {
     #region SINGLETON-NING
-    private static GameManager _instance;
+    private static Singleton _instance;
 
-    public static GameManager Instance
+    public static Singleton Instance
     {
         get { return _instance; }
     }
@@ -24,6 +24,4 @@ public class GameManager : MonoBehaviour
         DontDestroyOnLoad(this.gameObject);
     }
     #endregion
-
-    public Room[] room;
 }
