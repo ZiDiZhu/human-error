@@ -41,6 +41,8 @@ public class TimeTimer : MonoBehaviour
         //prevent timeIsUp when a timer hasnt been set
         newHour = 23;
         newMinutes = 59;
+
+        Cursor.lockState = CursorLockMode.None; //this is a quick fix for desktop scenes pls move this line somewhere else later
     }
 
     private void Update()

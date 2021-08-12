@@ -47,5 +47,14 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Puzzles/level1.unity
     guid: ad654332a6f84d94c84ec54fdd6bca91
+  - enabled: 1
+    path: Assets/Scenes/Puzzles/0027Desktop.unity
+    guid: 5574ad271b93e31409880028e2371e5e
+  - enabled: 1
+    path: Assets/Scenes/Puzzles/level2.unity
+    guid: 9ed4e0c227da7744da3b59c01fdade5b
+  - enabled: 1
+    path: Assets/Scenes/Puzzles/0027_room0.unity
+    guid: 717d345b529719644b5a8a3c4795555d
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 0779f95da579c6c4aa747e45e8200df2, type: 2}

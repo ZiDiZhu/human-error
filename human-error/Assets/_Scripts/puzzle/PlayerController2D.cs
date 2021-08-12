@@ -24,6 +24,7 @@ public class PlayerController2D : MonoBehaviour
     {
         controls.main.movement.performed += ctx => Move(ctx.ReadValue<Vector2>()); //ctx == context
         //passes the event to move()
+        
     }
 
     void Move(Vector2 direction)
