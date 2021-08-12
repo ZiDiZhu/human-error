@@ -80,7 +80,14 @@ public class TimeTimer : MonoBehaviour
         newHour = System.DateTime.Now.Hour + hourAdd;
         newMinutes = System.DateTime.Now.Minute + minutesAdd;
         newSeconds = System.DateTime.Now.Second + SecondsAdd;
-        if(newTimeDisplay != null)
+
+        if (newMinutes >= 60)
+        {
+            newHour++;
+            newMinutes-= 60;
+        }
+
+        if (newTimeDisplay != null)
         {
             newTimeDisplay.text = newHour + ":" + newMinutes + ":00";
         }

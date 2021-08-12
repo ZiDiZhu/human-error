@@ -5304,7 +5304,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c9ed867e03c0e4429400271e392d79c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toLoad: Hub World
+  toLoad: Desktop
 --- !u!4 &2092689876
 Transform:
   m_ObjectHideFlags: 0

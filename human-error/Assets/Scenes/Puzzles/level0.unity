@@ -499,7 +499,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c9ed867e03c0e4429400271e392d79c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toLoad: Puzzle1
+  toLoad: level0
 --- !u!1 &148718137
 GameObject:
   m_ObjectHideFlags: 0
