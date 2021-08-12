@@ -453,7 +453,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1195841373}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: d39d6af89fd9aa449a0722ac5758aa9f, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: c9e8407aee7fadb45a9f8070b147acb1, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -530,8 +530,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -256}
-  m_SizeDelta: {x: 261.4, y: 58.5}
+  m_AnchoredPosition: {x: 0, y: -345}
+  m_SizeDelta: {x: 328.08, y: 58.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1447227651
 MonoBehaviour:
@@ -554,7 +554,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_NormalColor: {r: 0.8113208, g: 0.8113208, b: 0.8113208, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
