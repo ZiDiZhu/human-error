@@ -6,16 +6,18 @@ using UnityEngine.Events;
 public class EventOnLoad : MonoBehaviour
 {
     //general purpose start function
+    public float waitSeconds;
 
     public UnityEvent startEvent;
     void Start()
     {
-        startEvent.Invoke();
+        StartCoroutine(Countdown());
+        
     }
 
-    // Update is called once per frame
-    void Update()
+    IEnumerator Countdown()
     {
-        
+        yield return new WaitForSeconds(waitSeconds);
+        startEvent.Invoke();
     }
 }

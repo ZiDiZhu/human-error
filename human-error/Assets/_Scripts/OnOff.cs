@@ -9,10 +9,16 @@ public class OnOff : MonoBehaviour
     public GameObject thing;
     public bool isOn;
 
+    public bool offOnLoad = true;
+
     private void Start()
     {
-        isOn = false;
-        thing.SetActive(false);
+        if (offOnLoad)
+        {
+            isOn = false;
+            thing.SetActive(false);
+        }
+        
     }
 
 

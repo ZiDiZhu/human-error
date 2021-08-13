@@ -56,5 +56,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Puzzles/0027_room0.unity
     guid: 717d345b529719644b5a8a3c4795555d
+  - enabled: 1
+    path: Assets/Scenes/Puzzles/level3.unity
+    guid: 80f867c958fd0464792027bf7793ac8c
+  - enabled: 1
+    path: Assets/Scenes/Puzzles/00301_room.unity
+    guid: ee3d5a3fb5fb4114b8803e4b1ec25d7f
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 0779f95da579c6c4aa747e45e8200df2, type: 2}
