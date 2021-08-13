@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9b6bbe2a19e7ec48ad69c6bf92a40ae, type: 3}
+  m_Name: hack1_refr2
+  m_EditorClassIdentifier: 
+  dialogue:
+  - 'done making your statement?
+
+'
+  - 
+  - oh you're done?
+  - allow me to start.
+  - i was never going to give you a choice wether to cooperate or not.
+  - 'i was just hoping that you would cooperate voluntarily. '
+  - now, you can still pretend that you had a choice
+  - i'll give you some time to think about it
+  responses:
+  - responseText: allow access
+    dialogueObject: {fileID: 0}

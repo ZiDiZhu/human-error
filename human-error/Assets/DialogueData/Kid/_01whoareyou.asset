@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9b6bbe2a19e7ec48ad69c6bf92a40ae, type: 3}
+  m_Name: _01whoareyou
+  m_EditorClassIdentifier: 
+  dialogue:
+  - i don't really know
+  - i mean, i know i'm me but
+  - i don't know what they refer to me as
+  - they called me "kid", mostly.
+  - 'but i know that i''m not the only kid.
+
+    I know there are many variants of
+    me, but i''ve never met with them. '
+  - so i must have some sort of serial number, or id, I just don't know it.
+  - do you know my serial number?
+  responses:
+  - responseText: yes
+    dialogueObject: {fileID: 0}
+  - responseText: no
+    dialogueObject: {fileID: 0}
