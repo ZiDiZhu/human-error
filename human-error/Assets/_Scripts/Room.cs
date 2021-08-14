@@ -12,8 +12,10 @@ public class Room : MonoBehaviour
 
     public string sceneName;
 
-    public Sprite lockedIcon;
-    public Sprite unlockedIcon;
+    public GameObject icon;
+
+    public Texture lockedIcon;
+    public Texture unlockedIcon;
     public GameObject completedIcon;
 
     #region SINGLETON-NING
@@ -40,15 +42,24 @@ public class Room : MonoBehaviour
 
     public void UpdateIcon()
     {
-        if (isUnlocked)
+
+        if (this.isUnlocked)
         {
-            this.GetComponent<Image>().sprite = unlockedIcon;
+            icon.GetComponent<RawImage>().texture = unlockedIcon;
+        }else if (!isUnlocked)
+        {
+            icon.GetComponent<RawImage>().texture = lockedIcon;
         }
 
         if (isClear)
         {
             completedIcon.SetActive(true);
+        }else if (!isClear)
+        {
+            completedIcon.SetActive(false);
         }
+
+        Debug.Log("Updated");
     }
 }
 

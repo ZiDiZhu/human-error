@@ -2313,3 +2313,4 @@ Received Import Request.
 Start importing Assets/DialogueData/Kid/_02yes.asset using Guid(bd4fe30e8d5ba714c9aa6ba9591c564f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d3d903f4f3607ea781127fc7d8f3b8c') in 0.004172 seconds 
   Import took 0.013649 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
