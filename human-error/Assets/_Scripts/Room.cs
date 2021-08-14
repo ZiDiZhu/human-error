@@ -18,27 +18,12 @@ public class Room : MonoBehaviour
     public Texture unlockedIcon;
     public GameObject completedIcon;
 
-    #region SINGLETON-NING
-    private static Room _instance;
 
-    public static Room Instance
+
+    public void Awake()
     {
-        get { return _instance; }
+        Debug.Log("vibe check");
     }
-
-    private void Awake()
-    {
-        //destroy other copies but not other rooms
-        if (_instance != null && _instance != this && _instance.sceneName == this.sceneName)
-        {
-            Destroy(this.gameObject);
-            return;
-        }
-
-        _instance = this;
-        DontDestroyOnLoad(this.gameObject);
-    }
-    #endregion
 
     public void UpdateIcon()
     {
@@ -46,9 +31,11 @@ public class Room : MonoBehaviour
         if (this.isUnlocked)
         {
             icon.GetComponent<RawImage>().texture = unlockedIcon;
+            icon.GetComponent<Button>().interactable = true;
         }else if (!isUnlocked)
         {
             icon.GetComponent<RawImage>().texture = lockedIcon;
+            icon.GetComponent<Button>().interactable = false;
         }
 
         if (isClear)

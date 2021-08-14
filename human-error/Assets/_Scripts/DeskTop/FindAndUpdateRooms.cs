@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -13,14 +14,15 @@ public class FindAndUpdateRooms : MonoBehaviour
 
     public void FindAndUpdateRoom()
     {
-        Debug.Log("finding");
-
         roomObject = GameObject.FindGameObjectsWithTag("room");
 
         foreach(GameObject room in roomObject)
         {
             room.GetComponent<Room>().UpdateIcon();
         }
+
+        roomObject = null;
+        roomObject = GameObject.FindGameObjectsWithTag("room");
 
     }
 }
