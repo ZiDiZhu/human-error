@@ -1105,3 +1105,164 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1307.926908 seconds.
+  path: Assets/_Scripts/puzzle/HappenByChance.cs
+  artifactKey: Guid(aa8c856ccd366c142bb796862a794aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/puzzle/HappenByChance.cs using Guid(aa8c856ccd366c142bb796862a794aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa80af465009f1d382b5a3857e4378fb') in 0.019692 seconds 
+  Import took 0.030232 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006037 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.261 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3888 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 181.4 MB.
+System memory in use after: 181.7 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4625.
+Total: 3.298300 ms (FindLiveObjects: 0.346000 ms CreateObjectMapping: 0.204300 ms MarkObjects: 2.599500 ms  DeleteObjects: 0.147100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 47.124915 seconds.
+  path: Assets/_Scripts/puzzle/HappenByChance.cs
+  artifactKey: Guid(aa8c856ccd366c142bb796862a794aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/puzzle/HappenByChance.cs using Guid(aa8c856ccd366c142bb796862a794aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e684e43027ba29eab1d4d1326b26af11') in 0.012361 seconds 
+  Import took 0.022262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.163748 seconds.
+  path: Assets/_Scripts/puzzle/HappenByChance.cs
+  artifactKey: Guid(aa8c856ccd366c142bb796862a794aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/puzzle/HappenByChance.cs using Guid(aa8c856ccd366c142bb796862a794aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac083d300603c9dfea02af2f22daeed4') in 0.003605 seconds 
+  Import took 0.010925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.296216 seconds.
+  path: Assets/_Scripts/puzzle/HappenByChance.cs
+  artifactKey: Guid(aa8c856ccd366c142bb796862a794aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/puzzle/HappenByChance.cs using Guid(aa8c856ccd366c142bb796862a794aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ff6fb49debfe66440fd2839b98913d5') in 0.003747 seconds 
+  Import took 0.012879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 129.400409 seconds.
+  path: Assets/_Scripts/puzzle/HappenByChance.cs
+  artifactKey: Guid(aa8c856ccd366c142bb796862a794aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/puzzle/HappenByChance.cs using Guid(aa8c856ccd366c142bb796862a794aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dafcd61251878487309923dd0f8e6230') in 0.003592 seconds 
+  Import took 0.011148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.998336 seconds.
+  path: Assets/_Scripts/puzzle/HappenByChance.cs
+  artifactKey: Guid(aa8c856ccd366c142bb796862a794aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/puzzle/HappenByChance.cs using Guid(aa8c856ccd366c142bb796862a794aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d61460a313fddcfe527aea6324c3693') in 0.003511 seconds 
+  Import took 0.009963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.222793 seconds.
+  path: Assets/_Scripts/puzzle/HappenByChance.cs
+  artifactKey: Guid(aa8c856ccd366c142bb796862a794aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/puzzle/HappenByChance.cs using Guid(aa8c856ccd366c142bb796862a794aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de7414c1bd9edba6303a614f7bc9f91d') in 0.004692 seconds 
+  Import took 0.013355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.486602 seconds.
+  path: Assets/_Scripts/puzzle/HappenByChance.cs
+  artifactKey: Guid(aa8c856ccd366c142bb796862a794aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/puzzle/HappenByChance.cs using Guid(aa8c856ccd366c142bb796862a794aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58a1050da19028ab013ec8a28c69820b') in 0.002674 seconds 
+  Import took 0.009344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.587279 seconds.
+  path: Assets/_Scripts/puzzle/HappenByChance.cs
+  artifactKey: Guid(aa8c856ccd366c142bb796862a794aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/puzzle/HappenByChance.cs using Guid(aa8c856ccd366c142bb796862a794aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a68229b09f633d03253b4700938a151') in 0.003177 seconds 
+  Import took 0.011895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.478057 seconds.
+  path: Assets/_Scripts/puzzle/HappenByChance.cs
+  artifactKey: Guid(aa8c856ccd366c142bb796862a794aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/puzzle/HappenByChance.cs using Guid(aa8c856ccd366c142bb796862a794aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8298d0a26458a88f1ce1e44e7a42a17') in 0.003057 seconds 
+  Import took 0.011425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.026400 seconds.
+  path: Assets/_Scripts/puzzle/HappenByChance.cs
+  artifactKey: Guid(aa8c856ccd366c142bb796862a794aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/puzzle/HappenByChance.cs using Guid(aa8c856ccd366c142bb796862a794aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a5384df169a3712a1e2d91dfd55f23') in 0.003523 seconds 
+  Import took 0.010505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023452 seconds.
+  path: Assets/_Scripts/puzzle/HappenByChance.cs
+  artifactKey: Guid(aa8c856ccd366c142bb796862a794aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scripts/puzzle/HappenByChance.cs using Guid(aa8c856ccd366c142bb796862a794aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a5384df169a3712a1e2d91dfd55f23') in 0.003415 seconds 
+  Import took 0.012025 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005819 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.224 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3888 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 181.5 MB.
+System memory in use after: 181.7 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4628.
+Total: 3.332200 ms (FindLiveObjects: 0.351500 ms CreateObjectMapping: 0.195200 ms MarkObjects: 2.638100 ms  DeleteObjects: 0.146200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
