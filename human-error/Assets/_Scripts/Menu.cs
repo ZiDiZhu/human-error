@@ -9,6 +9,9 @@ public class Menu : MonoBehaviour
     public GameObject menu;
     public bool menuisOpen;
 
+    public GameObject player;
+    public GameObject playerCamera;
+
     void Start()
     {
         CloseMenu();
@@ -34,7 +37,16 @@ public class Menu : MonoBehaviour
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
         menuisOpen = true;
-        
+
+        //make the player not able to rotate camera when menu is open
+        player = GameObject.FindGameObjectWithTag("Player");
+        if(player != null)
+        {
+            playerCamera = player.transform.Find("Main Camera").gameObject;
+
+            playerCamera.GetComponent<MouseLook>().canRotate = false;
+            player.GetComponent<PlayerMovement>().canMove = false;
+        }
     }
 
     public void CloseMenu()
@@ -42,5 +54,12 @@ public class Menu : MonoBehaviour
         menu.SetActive(false);
         Cursor.lockState = CursorLockMode.Locked;
         menuisOpen = false;
+        Cursor.visible = false;
+
+        if (player != null)
+        {
+            playerCamera.GetComponent<MouseLook>().canRotate = true;
+            player.GetComponent<PlayerMovement>().canMove = true;
+        }
     }
 }
