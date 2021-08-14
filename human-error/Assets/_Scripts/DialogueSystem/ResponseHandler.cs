@@ -15,6 +15,9 @@ public class ResponseHandler : MonoBehaviour
 
     private List<GameObject> tempResponseButtons = new List<GameObject>();
 
+    public GameObject player;
+    public GameObject playerCamera;
+
     private void Start()
     {
         dialogueUI = GetComponent<DialogueUI>();
@@ -30,6 +33,16 @@ public class ResponseHandler : MonoBehaviour
         float responseBoxHeight = 0;
 
         Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+
+        player = GameObject.FindGameObjectWithTag("Player");
+        if (player != null)
+        {
+            playerCamera = player.transform.Find("Main Camera").gameObject;
+
+            playerCamera.GetComponent<MouseLook>().canRotate = false;
+            player.GetComponent<PlayerMovement>().canMove = false;
+        }
 
         for (int i = 0; i < responses.Length; i++)
         {
@@ -59,6 +72,12 @@ public class ResponseHandler : MonoBehaviour
 
         //lock the cursor
         Cursor.lockState = CursorLockMode.Locked;
+
+        if (player != null)
+        {
+            playerCamera.GetComponent<MouseLook>().canRotate = true;
+            player.GetComponent<PlayerMovement>().canMove = true;
+        }
 
         //destroy the response buttons
         foreach (GameObject button in tempResponseButtons)
