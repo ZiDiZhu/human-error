@@ -48,10 +48,5 @@ public class Room : MonoBehaviour
 
         Debug.Log("Updated");
     }
-
-    public void SetRoomCleared()
-    {
-        isClear = true;
-    }
 }
 
