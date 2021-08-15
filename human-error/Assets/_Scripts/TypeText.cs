@@ -19,6 +19,7 @@ public class TypeText : MonoBehaviour
 
     public void Type()
     {
+        txt = label.text;
         typewriterEffect.Run(txt, label);
     }
 }

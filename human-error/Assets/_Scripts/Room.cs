@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class Room : MonoBehaviour
 {
@@ -18,11 +19,14 @@ public class Room : MonoBehaviour
     public Texture unlockedIcon;
     public GameObject completedIcon;
 
+    public TMP_Text mailText;
+    public string newEmail;
+    public GameObject greenDot; //to notify that theres a new mail
 
 
     public void Awake()
     {
-        Debug.Log("vibe check");
+        //Debug.Log("vibe check");
     }
 
     public void UpdateIcon()
@@ -40,13 +44,18 @@ public class Room : MonoBehaviour
 
         if (isClear)
         {
+            
             completedIcon.SetActive(true);
+            //update email
+            mailText.text = this.newEmail;
+            greenDot.SetActive(true);
+
         }else if (!isClear)
         {
             completedIcon.SetActive(false);
         }
 
-        Debug.Log("Updated");
+        
     }
 }
 

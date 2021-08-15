@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Desktop
   - room
+  - Mail
+  - MailText
+  - dot
   layers:
   - Default
   - TransparentFX
