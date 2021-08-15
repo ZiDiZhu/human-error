@@ -13,3 +13,12 @@
 ### Contact 
 
 octopifrutti#4913 / grosswamp@gmail.com
+
+## controls:
+
+WASD: Move (alt. arrows)
+E: Interact (alt. click)
+Mouse
+
+Debug tools:
+P: enable/disable cursor
