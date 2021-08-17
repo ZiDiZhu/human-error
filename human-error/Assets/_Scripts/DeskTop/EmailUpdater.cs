@@ -7,11 +7,13 @@ public class EmailUpdater : MonoBehaviour
     public GameObject emailPanel;
     public GameObject mailText;
     public bool isOn;
+    public bool startedTyping;
 
     void Awake()
     {
         Hook();
         isOn = false;
+        startedTyping = false;
         emailPanel.GetComponent<Canvas>().enabled = false;
     }
 
@@ -26,20 +28,37 @@ public class EmailUpdater : MonoBehaviour
         mailText = GameObject.FindWithTag("MailText");
     }
 
+    public void CheckifON()
+    {
+        if(emailPanel.GetComponent<Canvas>().enabled == true)
+        {
+            isOn = true;
+        }
+        else
+        {
+            isOn = false;
+        }
+    }
+
     public void OnOffEmail()
     {
         Hook();
-
+        CheckifON();
         if (isOn)
         {
             emailPanel.GetComponent<Canvas>().enabled = false;
             isOn = false;
         }
-        else
+        else 
         {
             emailPanel.GetComponent<Canvas>().enabled = true;
             isOn = true;
-            mailText.GetComponent<TypeText>().Type();
+            if (!startedTyping)
+            {
+                mailText.GetComponent<TypeText>().Type();
+            }
+
+            startedTyping = true;
         }
     }
 

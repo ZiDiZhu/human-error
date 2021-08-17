@@ -22,6 +22,7 @@ public class Room : MonoBehaviour
     public TMP_Text mailText;
     public string newEmail;
     public GameObject greenDot; //to notify that theres a new mail
+    public bool notified; // avoid being called twice
 
 
     public void Awake()
@@ -32,7 +33,7 @@ public class Room : MonoBehaviour
     public void UpdateIcon()
     {
 
-        if (this.isUnlocked)
+        if (this.isUnlocked && !isClear)
         {
             icon.GetComponent<RawImage>().texture = unlockedIcon;
             icon.GetComponent<Button>().interactable = true;
@@ -44,18 +45,49 @@ public class Room : MonoBehaviour
 
         if (isClear)
         {
-            
-            completedIcon.SetActive(true);
-            //update email
-            mailText.text = this.newEmail;
-            greenDot.SetActive(true);
-
-        }else if (!isClear)
+            icon.GetComponent<Button>().interactable = false;
+            if (completedIcon != null)
+            {
+                completedIcon.SetActive(true);
+            }
+        }
+        else
         {
-            completedIcon.SetActive(false);
+            if(completedIcon != null)
+            {
+                completedIcon.SetActive(false);
+            }
+            
         }
 
+        if (!notified)
+        {
+            Notify();
+        }
         
+    }
+
+    public void Notify()
+    {
+
+        if (isClear)
+        {
+
+            //update email
+            mailText.text = this.newEmail;
+            if (newEmail != null)
+            {
+                greenDot.SetActive(true);
+            }
+
+        }
+        else if (!isClear)
+        {
+            //completedIcon.SetActive(false);
+        }
+
+        notified = true;
+
     }
 }
 

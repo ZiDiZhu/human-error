@@ -71,5 +71,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Rooms/looksky.unity
     guid: d67819814968c8148ace0bc331da6f3f
+  - enabled: 1
+    path: Assets/Scenes/Puzzles/level4.unity
+    guid: fc6cf5edcd7dd4742a986796d4dfd152
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 0779f95da579c6c4aa747e45e8200df2, type: 2}

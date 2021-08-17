@@ -52,4 +52,5 @@ public class FindAndUpdateRooms : MonoBehaviour
         FindByName();
         theRoom.GetComponent<Room>().isUnlocked = true;
     }
+
 }
