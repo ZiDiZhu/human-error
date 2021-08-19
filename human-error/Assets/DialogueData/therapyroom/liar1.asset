@@ -10,12 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f9b6bbe2a19e7ec48ad69c6bf92a40ae, type: 3}
-  m_Name: procedure2
+  m_Name: liar1
   m_EditorClassIdentifier: 
   dialogue:
-  - Are your eyes closed?
-  responses:
-  - responseText: Yes
-    dialogueObject: {fileID: 11400000, guid: 36bb959df2611a344b5255746e32abb8, type: 2}
-  - responseText: No
-    dialogueObject: {fileID: 11400000, guid: c132113782dfc4d4d887d127701cd1c2, type: 2}
+  - 'hey kid.
+
+
+    Do you know what they do to liars?'
+  responses: []

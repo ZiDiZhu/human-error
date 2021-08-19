@@ -23,6 +23,8 @@ public class FIndDesktop : MonoBehaviour
 
     public void OnOffDeskTop()
     {
+        CheckIfOn();
+
         if (isOn)
         {
             desktop.GetComponent<Canvas>().enabled = false;
@@ -31,6 +33,18 @@ public class FIndDesktop : MonoBehaviour
         else
         {
             desktop.GetComponent<Canvas>().enabled = true;
+            isOn = true;
+        }
+    }
+
+    public void CheckIfOn()
+    {
+        if (desktop.GetComponent<Canvas>().enabled == false)
+        {
+            isOn = false;
+        }
+        else
+        {
             isOn = true;
         }
     }

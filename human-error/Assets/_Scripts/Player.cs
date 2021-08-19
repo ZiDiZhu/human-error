@@ -35,11 +35,17 @@ public class Player : MonoBehaviour
             
             if (Input.GetKeyDown(KeyCode.E) || Input.GetMouseButtonDown(0))
             {
-                //?. == if interactable != null
-                Interactable?.Interact(this);
+                InteractionClick();
             }
             
         }
 
+    }
+
+    public void InteractionClick()
+    {
+        
+        //?. == if interactable != null
+        Interactable?.Interact(this);
     }
 }

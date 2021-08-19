@@ -5348,6 +5348,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   menu: {fileID: 1451175259}
   menuisOpen: 0
+  player: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1001 &1581556281
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5599,6 +5601,8 @@ MonoBehaviour:
   responseBox: {fileID: 2077410805}
   responseButtonTemplate: {fileID: 244052781}
   responseContainer: {fileID: 1140607316}
+  player: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!850595691 &1770225466
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -6594,7 +6598,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c9ed867e03c0e4429400271e392d79c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toLoad: Hub World
+  toLoad: Desktop
 --- !u!4 &2055493629
 Transform:
   m_ObjectHideFlags: 0

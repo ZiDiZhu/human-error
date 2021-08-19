@@ -17,4 +17,4 @@ MonoBehaviour:
   - 'It''s easier for both of us if you''d cooperate. '
   responses:
   - responseText: ok.
-    dialogueObject: {fileID: 11400000, guid: 476a1868b88b8c34ba213bcc3439f29d, type: 2}
+    dialogueObject: {fileID: 0}

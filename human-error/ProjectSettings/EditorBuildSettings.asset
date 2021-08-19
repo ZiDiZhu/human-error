@@ -6,8 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Hub World.unity
-    guid: db568e5f0ac32c645b567018b04bbf2c
+    path: Assets/Scenes/Log In.unity
+    guid: ff6a9467f6fab314ba73a0857d04a83e
+  - enabled: 1
+    path: Assets/Scenes/Desktop.unity
+    guid: 63402316f4e9b404495d9a47085b64b3
   - enabled: 1
     path: Assets/Scenes/Rooms/PianoRoom.unity
     guid: 31bad3aed9e785b4f9401712fe9e81bb
@@ -24,7 +27,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Video Test.unity
     guid: 3e17746f44730ee479456b7ff4139958
   - enabled: 1
-    path: Assets/Scenes/Rooms/CageRoom2.unity
+    path: Assets/Scenes/Rooms/bluescreen.unity
     guid: 1ac884b463477c94f9085c074337ccd2
   - enabled: 1
     path: Assets/Scenes/Rooms/CageRoom1.unity
@@ -35,12 +38,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Puzzles/Puzzle1.unity
     guid: beff61544f7ba6f47b51202135a73d2e
-  - enabled: 1
-    path: Assets/Scenes/Desktop.unity
-    guid: 63402316f4e9b404495d9a47085b64b3
-  - enabled: 1
-    path: Assets/Scenes/Log In.unity
-    guid: ff6a9467f6fab314ba73a0857d04a83e
   - enabled: 1
     path: Assets/Scenes/Puzzles/level0.unity
     guid: 02611d580577e78488ed635baf151d81
@@ -74,5 +71,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Puzzles/level4.unity
     guid: fc6cf5edcd7dd4742a986796d4dfd152
+  - enabled: 1
+    path: Assets/Scenes/cutscenes/flashback.unity
+    guid: 91b3ef463389d3845be5f17d1acaebc7
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 0779f95da579c6c4aa747e45e8200df2, type: 2}
