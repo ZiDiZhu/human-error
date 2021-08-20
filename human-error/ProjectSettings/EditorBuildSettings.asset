@@ -57,7 +57,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Puzzles/level3.unity
     guid: 80f867c958fd0464792027bf7793ac8c
   - enabled: 1
-    path: Assets/Scenes/Puzzles/00301_room.unity
+    path: Assets/Scenes/Puzzles/gift.unity
     guid: ee3d5a3fb5fb4114b8803e4b1ec25d7f
   - enabled: 1
     path: Assets/Scenes/Puzzles/00272.unity

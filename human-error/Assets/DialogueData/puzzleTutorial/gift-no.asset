@@ -13,7 +13,9 @@ MonoBehaviour:
   m_Name: gift-no
   m_EditorClassIdentifier: 
   dialogue:
-  - "-----------Warning----------\nan unexpected error has occured. error code: \xBAx\xA7\xB5\xE9\xDDy\xD6\xDE\N\xAB\xE2\xA2\xEA"
+  - '-----------Warning----------
+
+    error code: unexpected behaviour'
   - 'searching for solution...
 
     resetting constraints

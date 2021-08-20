@@ -44,13 +44,21 @@ public class FindAndUpdateRooms : MonoBehaviour
     public void SetRoomCleared()
     {
         FindByName();
-        theRoom.GetComponent<Room>().isClear = true;
+        if(theRoom != null)
+        {
+            theRoom.GetComponent<Room>().isClear = true;
+        }
+        
     }
 
     public void SetRoomUnlocked()
     {
         FindByName();
-        theRoom.GetComponent<Room>().isUnlocked = true;
+        if (theRoom != null)
+        {
+            theRoom.GetComponent<Room>().isUnlocked = true;
+        }
+        
     }
 
 }

@@ -7,10 +7,13 @@ public class DialogueActivator : MonoBehaviour, Interactable
 
     public void UpdateDialogueObject(DialogueObject dialogueObject)
     {
-        this.dialogueObject = dialogueObject; 
+        this.dialogueObject = dialogueObject;
+        dialogueIndicator.SetActive(true);
+
     }
 
     public GameObject dialogueIndicator; //a ? that indicates there's a dialogue to be triggered
+    public GameObject player;
     
 
     void Start()
@@ -18,7 +21,9 @@ public class DialogueActivator : MonoBehaviour, Interactable
         if (dialogueIndicator != null)
         {
             dialogueIndicator.SetActive(false);
+            
         }
+        player = GameObject.FindGameObjectWithTag("Player");
     }
 
     public void Interact(Player player)

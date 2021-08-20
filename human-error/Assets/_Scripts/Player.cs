@@ -45,7 +45,6 @@ public class Player : MonoBehaviour
     public void InteractionClick()
     {
         
-        //?. == if interactable != null
         Interactable?.Interact(this);
     }
 }
