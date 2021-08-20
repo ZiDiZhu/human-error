@@ -3768,7 +3768,7 @@ PrefabInstance:
     - target: {fileID: 3564059384980194333, guid: 98f3dc356448da94fbc41768852ae3fd, type: 3}
       propertyPath: unlockedIcon
       value: 
-      objectReference: {fileID: 2800000, guid: a436827410c08114b87bc9d5b6ac8911, type: 3}
+      objectReference: {fileID: 2800000, guid: b9661ed87dccc2545a25dfbf621621c1, type: 3}
     - target: {fileID: 3564059384980194333, guid: 98f3dc356448da94fbc41768852ae3fd, type: 3}
       propertyPath: completedIcon
       value: 
@@ -3883,7 +3883,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8558990949541167816, guid: 98f3dc356448da94fbc41768852ae3fd, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8558990949541167821, guid: 98f3dc356448da94fbc41768852ae3fd, type: 3}
       propertyPath: m_SortingOrder

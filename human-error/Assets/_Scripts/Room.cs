@@ -33,10 +33,14 @@ public class Room : MonoBehaviour
     public void UpdateIcon()
     {
 
-        if (this.isUnlocked && !isClear)
+        if (this.isUnlocked)
         {
             icon.GetComponent<RawImage>().texture = unlockedIcon;
-            icon.GetComponent<Button>().interactable = true;
+            if (!isClear)
+            {
+                icon.GetComponent<Button>().interactable = true;
+            }
+            
         }else if (!isUnlocked)
         {
             icon.GetComponent<RawImage>().texture = lockedIcon;
