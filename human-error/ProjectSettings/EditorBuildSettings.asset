@@ -74,5 +74,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/cutscenes/flashback.unity
     guid: 91b3ef463389d3845be5f17d1acaebc7
+  - enabled: 1
+    path: Assets/Scenes/Puzzles/level5.unity
+    guid: ad558963bdd8c434a99ebfa0407ea757
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 0779f95da579c6c4aa747e45e8200df2, type: 2}
