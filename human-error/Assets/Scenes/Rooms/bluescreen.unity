@@ -4302,6 +4302,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   menu: {fileID: 870685725}
   menuisOpen: 0
+  player: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1001 &1581556281
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4742,6 +4744,8 @@ MonoBehaviour:
   responseBox: {fileID: 2077410805}
   responseButtonTemplate: {fileID: 244052781}
   responseContainer: {fileID: 1140607316}
+  player: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!43 &1707977147
 Mesh:
   m_ObjectHideFlags: 0
@@ -5025,11 +5029,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'This product is selected as a test subject for the development of an experimental
-    feature.
-
-    This feature''s goal is to give the subject the ability to consciously
-    and virtually perform tasks while being in a sleep-like paralysis state. '
+  m_text: 'This product was a clone of '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
