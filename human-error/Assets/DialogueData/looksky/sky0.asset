@@ -13,12 +13,9 @@ MonoBehaviour:
   m_Name: sky0
   m_EditorClassIdentifier: 
   dialogue:
-  - 'you dreamed of skies often.
-
-'
-  - "you thought that if you had the privilege to the atmosphere,\nyou would just
-    look at the sky. \nfor entire days."
-  - 
+  - you would look at the sky forever if you could
   - but your eyes are long gone
   - 'so is the Earth''s atmosphere '
-  responses: []
+  responses:
+  - responseText: leave
+    dialogueObject: {fileID: 0}
