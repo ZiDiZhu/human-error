@@ -13,10 +13,9 @@ MonoBehaviour:
   m_Name: sofa0_yes
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Well,
-
-    I''m here to help you un-know the reason.'
-  - The procedure is quick and painless , but you have to follow my instructions.
+  - No.
+  - and now, for your weekly update.
+  - the procedure is quick and painless , but you have to follow my instructions.
   responses:
   - responseText: ok
     dialogueObject: {fileID: 0}

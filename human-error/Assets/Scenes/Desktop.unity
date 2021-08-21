@@ -3807,6 +3807,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
       objectReference: {fileID: 663733746}
+    - target: {fileID: 798437017435614746, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
+      propertyPath: m_Text
+      value: sky.vms
+      objectReference: {fileID: 0}
     - target: {fileID: 798437017478594480, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 

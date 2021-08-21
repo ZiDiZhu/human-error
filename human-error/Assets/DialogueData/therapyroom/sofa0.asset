@@ -13,10 +13,12 @@ MonoBehaviour:
   m_Name: sofa0
   m_EditorClassIdentifier: 
   dialogue:
-  - So,
+  - let's start our weekly update now.
+  - you don't have to write journals anymore. I'll be keeping your sketchbook for
+    now.
   - Do you know why you're here today?
   responses:
-  - responseText: Yes
+  - responseText: Can I have my skechbook back
     dialogueObject: {fileID: 0}
   - responseText: No
     dialogueObject: {fileID: 0}

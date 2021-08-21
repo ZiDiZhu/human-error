@@ -202,7 +202,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 50106b919469fb24e8ac3d3067dd23ec, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0a85be42bd193564781fd23641913483, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -227,9 +227,17 @@ MonoBehaviour:
   myPage: {fileID: 0}
   pages:
   - {fileID: 21300000, guid: 50106b919469fb24e8ac3d3067dd23ec, type: 3}
+  - {fileID: 21300000, guid: d61de8833f3627b4cbe8c6472e5cc06e, type: 3}
+  - {fileID: 21300000, guid: 0a85be42bd193564781fd23641913483, type: 3}
+  - {fileID: 21300000, guid: 397eb9f915fbe8c48982d4e374b389fc, type: 3}
+  - {fileID: 21300000, guid: f312c57d26f31d24682346bf7bfdfdd7, type: 3}
+  - {fileID: 21300000, guid: f312c57d26f31d24682346bf7bfdfdd7, type: 3}
+  - {fileID: 21300000, guid: f312c57d26f31d24682346bf7bfdfdd7, type: 3}
+  - {fileID: 21300000, guid: f312c57d26f31d24682346bf7bfdfdd7, type: 3}
+  - {fileID: 21300000, guid: f312c57d26f31d24682346bf7bfdfdd7, type: 3}
   - {fileID: 21300000, guid: f312c57d26f31d24682346bf7bfdfdd7, type: 3}
   - {fileID: 21300000, guid: ed80e192be00f6c43832ba79cd1e7886, type: 3}
-  currentPageNum: 0
+  currentPageNum: 2
 --- !u!1 &1246030153938280231
 GameObject:
   m_ObjectHideFlags: 0

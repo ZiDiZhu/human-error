@@ -21,7 +21,8 @@ MonoBehaviour:
     log message.
 
 '
-  - Don't worry, it's painless.
+  - Don't worry, it's painless. Aside from closing your eyes, relax and do absolutely
+    nothing in the meantime.
   - "Please confirm now to start procedure. \nYou should be closing your eye right
     away."
   responses:

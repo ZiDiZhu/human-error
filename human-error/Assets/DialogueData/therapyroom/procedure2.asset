@@ -16,6 +16,6 @@ MonoBehaviour:
   - Are your eyes closed?
   responses:
   - responseText: Yes
-    dialogueObject: {fileID: 11400000, guid: 36bb959df2611a344b5255746e32abb8, type: 2}
+    dialogueObject: {fileID: 0}
   - responseText: No
-    dialogueObject: {fileID: 11400000, guid: c132113782dfc4d4d887d127701cd1c2, type: 2}
+    dialogueObject: {fileID: 0}

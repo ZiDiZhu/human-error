@@ -13,6 +13,13 @@ MonoBehaviour:
   m_Name: therapist0
   m_EditorClassIdentifier: 
   dialogue:
-  - Hello, kid.
+  - hey kid.
+  - 'thank you for keeping the journal logs as I instructed. you did good.
+
+    The
+    logs has been very helpful.'
+  - now,
   - You can sit on the sofa over there.
-  responses: []
+  responses:
+  - responseText: ok
+    dialogueObject: {fileID: 0}
