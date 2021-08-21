@@ -11,6 +11,8 @@ public class Room : MonoBehaviour
     public bool isUnlocked;
     public bool isClear;
 
+    public bool isPuzzleRoom = false; //some rules are different for puzzle rooms
+
     public string sceneName;
 
     public GameObject icon;
