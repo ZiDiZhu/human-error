@@ -480,6 +480,21 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6194814585558709203, guid: 1d937eade2394744ab051efae25b2a48, type: 3}
   m_PrefabInstance: {fileID: 910050956}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &200631007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 200631006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ede3ad930ada9240b860e0ab2787644, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomObject: []
+  theRoomName: blueScreen
+  theRoom: {fileID: 0}
 --- !u!1 &230636767
 GameObject:
   m_ObjectHideFlags: 0
@@ -3017,6 +3032,34 @@ PrefabInstance:
     - target: {fileID: 6194814585558709200, guid: 1d937eade2394744ab051efae25b2a48, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6194814585558709201, guid: 1d937eade2394744ab051efae25b2a48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6194814585558709201, guid: 1d937eade2394744ab051efae25b2a48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6194814585558709201, guid: 1d937eade2394744ab051efae25b2a48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 200631007}
+    - target: {fileID: 6194814585558709201, guid: 1d937eade2394744ab051efae25b2a48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6194814585558709201, guid: 1d937eade2394744ab051efae25b2a48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetRoomCleared
+      objectReference: {fileID: 0}
+    - target: {fileID: 6194814585558709201, guid: 1d937eade2394744ab051efae25b2a48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: FindAndUpdateRooms, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6194814585558709201, guid: 1d937eade2394744ab051efae25b2a48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6194814585558709203, guid: 1d937eade2394744ab051efae25b2a48, type: 3}
       propertyPath: m_Name
