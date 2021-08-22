@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 1_pc_on
   m_EditorClassIdentifier: 
   dialogue:
-  - for safety, a series of tests will be conducted to test your compatibility.
+  - WjI4Z2FHVnlaUXAwYUdseklHbHpJR0Z1YjNSb1pYSWdiV1Z0YjNKNQ==
   - please confirm if you're ready
   responses:
   - responseText: confirm

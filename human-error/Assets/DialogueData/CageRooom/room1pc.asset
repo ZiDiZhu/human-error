@@ -10,12 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f9b6bbe2a19e7ec48ad69c6bf92a40ae, type: 3}
-  m_Name: 0_mattress-off
+  m_Name: room1pc
   m_EditorClassIdentifier: 
   dialogue:
-  - ZVc5MUozSmxJRzV2ZENCaGQyRnJaU3dnWW5WMElIZHZkV3hrSUhsdmRTQnNhV3RsSUhSdklHZHZJSFJ2SUhOc1pXVndQdz09
-  responses:
-  - responseText: yes
-    dialogueObject: {fileID: 0}
-  - responseText: cancel
-    dialogueObject: {fileID: 0}
+  - '[to be updated]'
+  responses: []

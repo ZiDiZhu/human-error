@@ -539,7 +539,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueObject: {fileID: 11400000, guid: e8733c5588b1aad42bc2cc52141754be, type: 2}
-  ui: {fileID: 0}
   dialogueIndicator: {fileID: 0}
   player: {fileID: 0}
 --- !u!1 &244052780
@@ -3340,7 +3339,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueObject: {fileID: 11400000, guid: 8f6be3d41e570434889e82ef21df4999, type: 2}
-  ui: {fileID: 0}
   dialogueIndicator: {fileID: 1443777890}
   player: {fileID: 0}
 --- !u!114 &732617227
@@ -3528,18 +3526,6 @@ MonoBehaviour:
     onPickedResponse:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 732617231}
-          m_TargetAssemblyTypeName: FindAndUpdateRooms, Assembly-CSharp
-          m_MethodName: SetRoomCleared
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
         - m_Target: {fileID: 732617231}
           m_TargetAssemblyTypeName: FindAndUpdateRooms, Assembly-CSharp
           m_MethodName: SetRoomUnlocked
@@ -6272,6 +6258,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1175091137}
+    - target: {fileID: 8512856793642762486, guid: 76c777a6a45a1fd488844f9bcf4adff3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8512856794172262618, guid: 76c777a6a45a1fd488844f9bcf4adff3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 

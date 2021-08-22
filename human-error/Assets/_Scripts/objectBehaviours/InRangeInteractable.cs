@@ -42,7 +42,7 @@ public class InRangeInteractable : MonoBehaviour
         {
             if(Input.GetKeyDown(KeyCode.E) || Input.GetMouseButtonDown(0))
             {
-                playermovement.enabled = false;
+                playermovement.speed = 0;
                 mouseLook.enabled = false;
                 Cursor.lockState = CursorLockMode.None;
                 Cursor.visible = true;
@@ -58,7 +58,7 @@ public class InRangeInteractable : MonoBehaviour
 
     public void ExitInteraction()
     {
-        playermovement.enabled = true;
+        playermovement.speed = 8;
         mouseLook.enabled = true;
         thing.SetActive(false);
         Cursor.lockState = CursorLockMode.Locked;
