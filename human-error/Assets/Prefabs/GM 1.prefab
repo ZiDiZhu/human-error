@@ -852,7 +852,7 @@ MonoBehaviour:
   isUnlocked: 0
   isClear: 0
   isPuzzleRoom: 0
-  sceneName: CageRoom2
+  sceneName: blueScreen
   icon: {fileID: 0}
   lockedIcon: {fileID: 2800000, guid: 0bbe94d8df5e161409290bd078685c30, type: 3}
   unlockedIcon: {fileID: 2800000, guid: 8efe8fdf6a92cb745a70c5d1d1539cad, type: 3}

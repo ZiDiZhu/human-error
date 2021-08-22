@@ -150,7 +150,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 0c2b100c061d7c94d84d8bff56a5fc0c, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 027fe39a8cf4bb841a5cfe8bf1b9ff1e, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.92
   m_Pitch: 1
@@ -364,7 +364,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &31674943
 Transform:
   m_ObjectHideFlags: 0
@@ -475,6 +475,11 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
+--- !u!1 &200631006 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6194814585558709203, guid: 1d937eade2394744ab051efae25b2a48, type: 3}
+  m_PrefabInstance: {fileID: 910050956}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &230636767
 GameObject:
   m_ObjectHideFlags: 0
@@ -791,7 +796,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &294971296
 Transform:
   m_ObjectHideFlags: 0
@@ -819,7 +824,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c6e2e3ce0979544bb0afab9e7b3dc42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  typeSpeed: 20
+  typeSpeed: 5
   typeSound: {fileID: 1828486668}
   isPlayingSound: 0
 --- !u!114 &294971298
@@ -838,7 +843,7 @@ MonoBehaviour:
   - {fileID: 1132970022}
   - {fileID: 486813301}
   txt: 
-  label: {fileID: 486813303}
+  label: {fileID: 1132970024}
 --- !u!114 &294971299
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -964,7 +969,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &486813302
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1004,12 +1009,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "subjects that has the above mention common issue follows the standard
-    prcedure of damaged products: depending of the severity and treatability of the
-    errors, the subject will be determined by the financial department wether or
-    not it is categorized as beyond-repair. \nif the product is damaged beyond-repair,
-    disposal is required. otherwise, it will be sent to the medical department for
-    restoration."
+  m_text: "while according to regular quality assurance policy, this product would
+    undoubtly be categorized as no-passing. however, we cannot afford to dispose
+    of this one. and therefore, drastic measures needs to be taken. \n\nwe need to
+    de-materialize the product and constraint it for now until"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2294,7 +2297,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &609031767
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2334,9 +2337,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: although the dream-work cybernetic technologies are widely applied in medical
-    treatments, it is still in their beta stage of development for its implementation
-    as a productivity tool. Critical errors are to be expected within our test trials.
+  m_text: "despite our efforts to condition the product to lose its human defects,
+    it has shown its innate ability of deception. \nwe are considering banning the
+    access of a"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2740,7 +2743,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 826681956}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -2924,6 +2927,116 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &910050956
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1599264236}
+    m_Modifications:
+    - target: {fileID: 6194814585558709200, guid: 1d937eade2394744ab051efae25b2a48, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6194814585558709200, guid: 1d937eade2394744ab051efae25b2a48, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6194814585558709200, guid: 1d937eade2394744ab051efae25b2a48, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6194814585558709200, guid: 1d937eade2394744ab051efae25b2a48, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6194814585558709200, guid: 1d937eade2394744ab051efae25b2a48, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6194814585558709200, guid: 1d937eade2394744ab051efae25b2a48, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6194814585558709200, guid: 1d937eade2394744ab051efae25b2a48, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6194814585558709200, guid: 1d937eade2394744ab051efae25b2a48, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 92.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6194814585558709200, guid: 1d937eade2394744ab051efae25b2a48, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 59.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6194814585558709200, guid: 1d937eade2394744ab051efae25b2a48, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6194814585558709200, guid: 1d937eade2394744ab051efae25b2a48, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6194814585558709200, guid: 1d937eade2394744ab051efae25b2a48, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6194814585558709200, guid: 1d937eade2394744ab051efae25b2a48, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6194814585558709200, guid: 1d937eade2394744ab051efae25b2a48, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6194814585558709200, guid: 1d937eade2394744ab051efae25b2a48, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6194814585558709200, guid: 1d937eade2394744ab051efae25b2a48, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6194814585558709200, guid: 1d937eade2394744ab051efae25b2a48, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6194814585558709200, guid: 1d937eade2394744ab051efae25b2a48, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -14.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6194814585558709200, guid: 1d937eade2394744ab051efae25b2a48, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6194814585558709200, guid: 1d937eade2394744ab051efae25b2a48, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6194814585558709200, guid: 1d937eade2394744ab051efae25b2a48, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6194814585558709203, guid: 1d937eade2394744ab051efae25b2a48, type: 3}
+      propertyPath: m_Name
+      value: ReturntoDesktop
+      objectReference: {fileID: 0}
+    - target: {fileID: 6194814585558709203, guid: 1d937eade2394744ab051efae25b2a48, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6194814585996655556, guid: 1d937eade2394744ab051efae25b2a48, type: 3}
+      propertyPath: m_Text
+      value: return
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1d937eade2394744ab051efae25b2a48, type: 3}
+--- !u!224 &910050957 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6194814585558709200, guid: 1d937eade2394744ab051efae25b2a48, type: 3}
+  m_PrefabInstance: {fileID: 910050956}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &925613385
 GameObject:
   m_ObjectHideFlags: 0
@@ -3198,7 +3311,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1052233488
 Transform:
   m_ObjectHideFlags: 0
@@ -3473,13 +3586,14 @@ GameObject:
   - component: {fileID: 1132970023}
   - component: {fileID: 1132970025}
   - component: {fileID: 1132970024}
+  - component: {fileID: 1132970026}
   m_Layer: 0
   m_Name: txt5_peculiar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1132970023
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3487,16 +3601,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1132970022}
-  m_LocalRotation: {x: -0, y: 0.8365686, z: -0, w: 0.5478623}
-  m_LocalPosition: {x: 0, y: 0, z: -1.3}
+  m_LocalRotation: {x: -0, y: 0.21229051, z: -0, w: 0.97720665}
+  m_LocalPosition: {x: 0, y: 0, z: -1.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2084900741}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 113.559, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 24.513, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 20.2, y: 2.9}
+  m_AnchoredPosition: {x: 19.8, y: 2.9}
   m_SizeDelta: {x: 68.2, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1132970024
@@ -3519,8 +3633,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'however, an unforeseen and unprecedented error has occured in this peculiar
-    test subject. '
+  m_text: dsadsadsads
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3583,7 +3696,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 32.014313, w: -13.232274}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -3633,6 +3746,21 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &1132970026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1132970022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41ce86cf017307048ba2500f5b0b8579, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  userName: win10
+  txt: 'hey '
+  txt2: ' i left a debug command to get you out of here. ENTER.'
 --- !u!1 &1140607315
 GameObject:
   m_ObjectHideFlags: 0
@@ -3715,7 +3843,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1186813603
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3755,10 +3883,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "as expected, the test trials has caused a variety of issues in our batch
-    of test subjects. Some common issues includes:\n\n- incoherence in perception
-    and behaviour\n- corrupted memory files\n- inability to distinguish impulses
-    from physical actions \n\netc.\n"
+  m_text: "this particular clone was very gifted - it has out-performed most of its
+    variants in learning speed and puzzle solving efficiency. \n\nhowever, this clone
+    has exhibited much more behavioural problems than its peers as well, such as
+    displaying an emotionally-driven pattern of thoughts and behaviours."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4082,7 +4210,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1329598010
 Transform:
   m_ObjectHideFlags: 0
@@ -4692,6 +4820,7 @@ RectTransform:
   - {fileID: 1126072966}
   - {fileID: 584923195}
   - {fileID: 870685726}
+  - {fileID: 910050957}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4752,7 +4881,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh19804
+  m_Name: pb_Mesh102268
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4989,7 +5118,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1828486665
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5029,7 +5158,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'This product was a clone of '
+  m_text: 'product error log:
+
+
+    a human error has occured despite the memory
+    reset of the product.
+
+
+    This is a trap to detect wether the product has the
+    ability of cheating the system. If you are seeing this message, the result is
+    positive.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5706,3 +5844,115 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2103702293
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2103702295}
+  - component: {fileID: 2103702294}
+  - component: {fileID: 2103702296}
+  - component: {fileID: 2103702297}
+  m_Layer: 0
+  m_Name: finalExit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2103702294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103702293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f467c2f56caf2f44874d81a04cda002, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: 13
+  myEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 200631006}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 2103702296}
+        m_TargetAssemblyTypeName: UnlockCursor, Assembly-CSharp
+        m_MethodName: UnlockthemfCursor
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 2103702297}
+        m_TargetAssemblyTypeName: FindAndUpdateRooms, Assembly-CSharp
+        m_MethodName: SetRoomCleared
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+--- !u!4 &2103702295
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103702293}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -872, y: 448, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2103702296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103702293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1cd02cbd9c1ab24c9dfe8b8845d6295, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2103702297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103702293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ede3ad930ada9240b860e0ab2787644, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomObject: []
+  theRoomName: blueScreen
+  theRoom: {fileID: 0}
