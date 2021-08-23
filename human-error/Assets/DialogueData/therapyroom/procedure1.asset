@@ -16,14 +16,12 @@ MonoBehaviour:
   - 'Please follow these instructions:
 
     You will need to close your eyes for
-    roughly 40  seconds.'
-  - 'You can only open your eyes when you hear a beep sound, followed by an audio
-    log message.
+    roughly 80  seconds.'
+  - 'You can only open your eyes when you start to hear a familiar tune.
 
 '
-  - Don't worry, it's painless. Aside from closing your eyes, relax and do absolutely
-    nothing in the meantime.
-  - "Please confirm now to start procedure. \nYou should be closing your eye right
+  - Don't worry, it's painless. You don't need to do anything else.
+  - "Please confirm now to start procedure. \nYou should be closing your eyes right
     away."
   responses:
   - responseText: Confirm.
