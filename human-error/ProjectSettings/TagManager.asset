@@ -9,6 +9,7 @@ TagManager:
   - Mail
   - MailText
   - dot
+  - log off block
   layers:
   - Default
   - TransparentFX

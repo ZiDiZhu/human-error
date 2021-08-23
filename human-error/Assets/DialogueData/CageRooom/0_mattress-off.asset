@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 0_mattress-off
   m_EditorClassIdentifier: 
   dialogue:
-  - ZVc5MUozSmxJRzV2ZENCaGQyRnJaU3dnWW5WMElIZHZkV3hrSUhsdmRTQnNhV3RsSUhSdklHZHZJSFJ2SUhOc1pXVndQdz09
+  - sleep?
   responses:
   - responseText: yes
     dialogueObject: {fileID: 0}

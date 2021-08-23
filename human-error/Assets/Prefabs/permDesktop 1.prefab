@@ -4141,7 +4141,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: 'room2.vms
+
+'
 --- !u!1 &798437018490988446
 GameObject:
   m_ObjectHideFlags: 0

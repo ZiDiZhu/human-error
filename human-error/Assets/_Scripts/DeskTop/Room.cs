@@ -22,6 +22,7 @@ public class Room : MonoBehaviour
     public GameObject completedIcon;
 
     public TMP_Text mailText;
+    [TextArea(15, 20)]
     public string newEmail;
     public GameObject greenDot; //to notify that theres a new mail
     public bool notified; // avoid being called twice
@@ -56,6 +57,12 @@ public class Room : MonoBehaviour
             {
                 completedIcon.SetActive(true);
             }
+            if (!notified)
+            {
+                Notify();
+                notified = true;
+            }
+
         }
         else
         {
@@ -66,10 +73,7 @@ public class Room : MonoBehaviour
             
         }
 
-        if (!notified)
-        {
-            Notify();
-        }
+        
         
     }
 
@@ -87,12 +91,8 @@ public class Room : MonoBehaviour
             }
 
         }
-        else if (!isClear)
-        {
-            //completedIcon.SetActive(false);
-        }
 
-        notified = true;
+        
 
     }
 }
