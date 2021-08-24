@@ -22,3 +22,6 @@ Mouse
 
 Debug tools:
 P: enable/disable cursor
+
+Screen resolution: 1920 x 1080
+global inconvenience(?): after selecting a response, have to double click to trigger new conversation
