@@ -13,16 +13,8 @@ MonoBehaviour:
   m_Name: mirror6
   m_EditorClassIdentifier: 
   dialogue:
-  - 'but now i understand exactly how you felt,
+  - 'later
 
-    each time you felt powerless
-    to the impossibility of understanding someone and be understood '
-  - 'this no longer has to be,
 
-    real connection is now'
-  - see,
-  - there's no more gap between where you end and i begin
-  - '*change a setting where the player opens menu, "escape is an option" changes
-    to "do you want to go?"'
-  - and opens a tunnel if the player says yes
+    aligator '
   responses: []

@@ -4943,6 +4943,18 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
       objectReference: {fileID: 663733746}
+    - target: {fileID: 88696217, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 88696217, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
+      propertyPath: m_Color.g
+      value: 0.6273585
+      objectReference: {fileID: 0}
+    - target: {fileID: 88696217, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
+      propertyPath: m_Color.r
+      value: 0.8117453
+      objectReference: {fileID: 0}
     - target: {fileID: 396044943, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
@@ -5331,6 +5343,34 @@ PrefabInstance:
       propertyPath: myEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 3151001419512591763, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 663733746}
+    - target: {fileID: 3151001419512591763, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: set_enabled
+      objectReference: {fileID: 0}
+    - target: {fileID: 3217700693325494423, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 17.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3217700693325494423, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -114.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3364747554899046393, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
+      propertyPath: toLoad
+      value: Brain
+      objectReference: {fileID: 0}
+    - target: {fileID: 3764228597268231340, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
+      propertyPath: m_Name
+      value: r_ch4_1_goodbye
+      objectReference: {fileID: 0}
+    - target: {fileID: 3791768060996936690, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
+      propertyPath: m_Text
+      value: sorry.vms
+      objectReference: {fileID: 0}
     - target: {fileID: 4619971557450039455, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 184
@@ -5345,11 +5385,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6456324672128843181, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
       propertyPath: toLoad
-      value: Brain
+      value: PurplePath
       objectReference: {fileID: 0}
     - target: {fileID: 6585851663136960831, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
       propertyPath: m_Name
-      value: r_ch4_0_endroom
+      value: r_ch4_0_sorry
+      objectReference: {fileID: 0}
+    - target: {fileID: 8013697964426733840, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 663733746}
+    - target: {fileID: 8013697964426733840, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: set_enabled
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 798437018038371049, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
@@ -5362,6 +5410,16 @@ Canvas:
 --- !u!1 &798437018429054818 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5881238156112084645, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
+  m_PrefabInstance: {fileID: 798437018429054816}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &798437018429054819 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6859660949756308552, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
+  m_PrefabInstance: {fileID: 798437018429054816}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &798437018429054820 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3764228597268231340, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
   m_PrefabInstance: {fileID: 798437018429054816}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3564059385869036794
@@ -5387,10 +5445,22 @@ PrefabInstance:
       propertyPath: completedIcon
       value: 
       objectReference: {fileID: 71010859}
+    - target: {fileID: 536194138299889219, guid: 98f3dc356448da94fbc41768852ae3fd, type: 3}
+      propertyPath: m_Name
+      value: r401_goodbye
+      objectReference: {fileID: 0}
     - target: {fileID: 1037184135958506318, guid: 98f3dc356448da94fbc41768852ae3fd, type: 3}
       propertyPath: icon
       value: 
       objectReference: {fileID: 2074699413}
+    - target: {fileID: 1037184135958506318, guid: 98f3dc356448da94fbc41768852ae3fd, type: 3}
+      propertyPath: sceneName
+      value: sorry
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037184135958506318, guid: 98f3dc356448da94fbc41768852ae3fd, type: 3}
+      propertyPath: unlockedIcon
+      value: 
+      objectReference: {fileID: 2800000, guid: 94ff90c1a09d96549824f3765de9f6ab, type: 3}
     - target: {fileID: 1037184135958506318, guid: 98f3dc356448da94fbc41768852ae3fd, type: 3}
       propertyPath: completedIcon
       value: 
@@ -5574,6 +5644,22 @@ PrefabInstance:
       propertyPath: completedIcon
       value: 
       objectReference: {fileID: 24850746}
+    - target: {fileID: 6996061320024445499, guid: 98f3dc356448da94fbc41768852ae3fd, type: 3}
+      propertyPath: icon
+      value: 
+      objectReference: {fileID: 798437018429054820}
+    - target: {fileID: 6996061320024445499, guid: 98f3dc356448da94fbc41768852ae3fd, type: 3}
+      propertyPath: sceneName
+      value: goodbye
+      objectReference: {fileID: 0}
+    - target: {fileID: 6996061320024445499, guid: 98f3dc356448da94fbc41768852ae3fd, type: 3}
+      propertyPath: completedIcon
+      value: 
+      objectReference: {fileID: 798437018429054819}
+    - target: {fileID: 7034457930410307046, guid: 98f3dc356448da94fbc41768852ae3fd, type: 3}
+      propertyPath: m_Name
+      value: r400_sorry
+      objectReference: {fileID: 0}
     - target: {fileID: 8558990949541167821, guid: 98f3dc356448da94fbc41768852ae3fd, type: 3}
       propertyPath: m_Enabled
       value: 0

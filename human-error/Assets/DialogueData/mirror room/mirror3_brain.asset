@@ -18,10 +18,6 @@ MonoBehaviour:
 
     got rid of everything
     else'
-  - quite a pity actually
-  - you had a pretty face
-  - oh well
-  - soon enough even this will be gone
   responses:
   - responseText: '>>>'
     dialogueObject: {fileID: 0}

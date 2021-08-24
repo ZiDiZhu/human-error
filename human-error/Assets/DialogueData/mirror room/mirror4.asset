@@ -13,13 +13,11 @@ MonoBehaviour:
   m_Name: mirror4
   m_EditorClassIdentifier: 
   dialogue:
-  - they plan to fully digitize you
-  - consider this an honorium
-  - you and i get to be the first to experience evolution
-  - like when life walked out of the primordial soup
-  - 'like when primate first walked standing up, '
-  - you walked into *here*
-  - and you are no longer constrained by the weakness of your flesh
+  - pretty cool huh
+  - '"cool"'
+  - haha
+  - you should tell me all about the correlation between low temperature and being
+    decent.
   responses:
   - responseText: '>>>>'
     dialogueObject: {fileID: 0}

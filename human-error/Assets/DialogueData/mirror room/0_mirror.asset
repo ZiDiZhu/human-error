@@ -13,14 +13,11 @@ MonoBehaviour:
   m_Name: 0_mirror
   m_EditorClassIdentifier: 
   dialogue:
-  - 'hey,sorry, i don''t remember how objects looked like, '
-  - so a mirror was the best i can do to make myself visible from the world
-  - 'hm?
+  - 'its me,
 
-    you''re saying there''s something wrong with the mirror?'
-  - not really, the mirror is fine
-  - it's you
-  - do you still remember what you look like?
+    you were in my memory '
+  - 'but '
+  - now we're in the same cage
   responses:
   - responseText: '>>'
     dialogueObject: {fileID: 0}

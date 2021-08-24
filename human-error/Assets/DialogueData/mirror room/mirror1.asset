@@ -13,15 +13,14 @@ MonoBehaviour:
   m_Name: mirror1
   m_EditorClassIdentifier: 
   dialogue:
-  - i see.
-  - me neither.
-  - they did the same to you as they did to me.
-  - for a moment I thought,
-  - the interface is not that different from the material reality
-  - 'until an amount of time later, '
-  - (I don't know how long, I can't measure without a reference),
-  - "I found that I could no longer tell \nwhere do I end,"
-  - and where does the world start.
+  - '"in the same cage"'
+  - is that what you call a metaphor?
+  - or
+  - '"in the same boat"
+
+    sounds nicer'
+  - do you know what a boat is?
+  - i think it's like a house that floats on water
   responses:
   - responseText: '>>'
     dialogueObject: {fileID: 0}

@@ -15,10 +15,8 @@ MonoBehaviour:
   dialogue:
   - 'good.
 
-    glad you do.'
-  - when you're done playing with it,
-  - make sure to dispose of it immediately and properly.
-  - have fun now
+    glad you like it.'
+  - i think it likes you too
   responses:
   - responseText: ok.
     dialogueObject: {fileID: 0}

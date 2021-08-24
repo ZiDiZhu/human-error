@@ -13,12 +13,9 @@ MonoBehaviour:
   m_Name: mirror5
   m_EditorClassIdentifier: 
   dialogue:
-  - you and me will be alone no more
-  - 'loneliness has perturbed us fo 3.7 billion years
-
-    ever since life became
-    separate entities.'
-  - "each material person is a bundle of closed circuits \neach mind is a black box\n"
+  - 'ok '
+  - i'll let you go for now
+  - you can open the door via Escape
   responses:
   - responseText: '>>>>>>'
     dialogueObject: {fileID: 0}

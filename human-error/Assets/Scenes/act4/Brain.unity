@@ -516,6 +516,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 55509658981575392, guid: db49e7c5f2484fa4381b2fafb4969e1e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c22af6c0db8c9874b85c190ae523b1d1, type: 3}
     - target: {fileID: 55509659116383208, guid: db49e7c5f2484fa4381b2fafb4969e1e, type: 3}
       propertyPath: m_Name
       value: DialogueBox
@@ -590,7 +594,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 55509659116383209, guid: db49e7c5f2484fa4381b2fafb4969e1e, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 43
       objectReference: {fileID: 0}
     - target: {fileID: 55509659116383209, guid: db49e7c5f2484fa4381b2fafb4969e1e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -612,6 +616,22 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 55509660327286969, guid: db49e7c5f2484fa4381b2fafb4969e1e, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0.34753338
+      objectReference: {fileID: 0}
+    - target: {fileID: 55509660327286969, guid: db49e7c5f2484fa4381b2fafb4969e1e, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0.4339623
+      objectReference: {fileID: 0}
+    - target: {fileID: 55509660327286969, guid: db49e7c5f2484fa4381b2fafb4969e1e, type: 3}
+      propertyPath: m_fontColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 55509660327286969, guid: db49e7c5f2484fa4381b2fafb4969e1e, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4284051200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db49e7c5f2484fa4381b2fafb4969e1e, type: 3}
 --- !u!224 &252556948 stripped
@@ -625,7 +645,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh53980
+  m_Name: pb_Mesh185136
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1523,6 +1543,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 608
       objectReference: {fileID: 0}
+    - target: {fileID: 8512856794172262598, guid: 76c777a6a45a1fd488844f9bcf4adff3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8512856794203915842, guid: 76c777a6a45a1fd488844f9bcf4adff3, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -2232,6 +2256,8 @@ MonoBehaviour:
   responseBox: {fileID: 333365176}
   responseButtonTemplate: {fileID: 458689232}
   responseContainer: {fileID: 53554829}
+  player: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!114 &950171382
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2295,12 +2321,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'well it was nice having you here, i won''t keep you for any longer then.
-
-
-    I
-    won''t walk you out just because technically i''m still here with you. just think
-    of me and i''ll be there.
+  m_text: 'this is the end to this demo (if you have completed all the other scenes
+    prior) thx for playing :)
 
 
     click the button and i''ll open a door for you'
@@ -2606,6 +2628,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   menu: {fileID: 878126919}
   menuisOpen: 0
+  player: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!4 &1349201163
 Transform:
   m_ObjectHideFlags: 0
@@ -7561,6 +7585,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueObject: {fileID: 11400000, guid: 5c86e7ef8cc584d43b7433ae092be1c7, type: 2}
   dialogueIndicator: {fileID: 2097330000}
+  player: {fileID: 0}
 --- !u!114 &1825470773
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7787,6 +7812,7 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 0
+  canMove: 1
 --- !u!4 &1832370567
 Transform:
   m_ObjectHideFlags: 0
@@ -8004,6 +8030,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseSensitivity: 330
   playerBody: {fileID: 1832370567}
+  canRotate: 1
 --- !u!1 &1942537799
 GameObject:
   m_ObjectHideFlags: 0
