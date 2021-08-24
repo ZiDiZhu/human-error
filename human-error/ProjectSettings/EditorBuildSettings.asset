@@ -12,16 +12,16 @@ EditorBuildSettings:
     path: Assets/Scenes/Desktop.unity
     guid: 63402316f4e9b404495d9a47085b64b3
   - enabled: 1
-    path: Assets/Scenes/Rooms/PianoRoom.unity
+    path: Assets/Scenes/act3/PianoRoom.unity
     guid: 31bad3aed9e785b4f9401712fe9e81bb
   - enabled: 1
     path: Assets/Scenes/Rooms/PurplePath.unity
     guid: 50f1d040908015c46a2b9ad87d9fef10
   - enabled: 1
-    path: Assets/Scenes/Rooms/TherapyRoom.unity
+    path: Assets/Scenes/act2/TherapyRoom.unity
     guid: 52ebeeaf3d1203b44b7fb1fc23859bc6
   - enabled: 1
-    path: Assets/Scenes/Rooms/CageRoom.unity
+    path: Assets/Scenes/act2/room2.unity
     guid: 935bd1f6dd3d1d242a43bcf672a304f7
   - enabled: 1
     path: Assets/Scenes/Video Test.unity
@@ -30,7 +30,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Rooms/bluescreen.unity
     guid: 1ac884b463477c94f9085c074337ccd2
   - enabled: 1
-    path: Assets/Scenes/Rooms/CageRoom1.unity
+    path: Assets/Scenes/act3/CageRoom1.unity
     guid: 30a0bff51c6512548bcb9d5e4aa85727
   - enabled: 1
     path: Assets/Scenes/Puzzles/Puzzle2.unity
@@ -45,28 +45,28 @@ EditorBuildSettings:
     path: Assets/Scenes/Puzzles/level1.unity
     guid: ad654332a6f84d94c84ec54fdd6bca91
   - enabled: 1
-    path: Assets/Scenes/Puzzles/0027Desktop.unity
+    path: Assets/Scenes/act1/tutorial.unity
     guid: 5574ad271b93e31409880028e2371e5e
   - enabled: 1
     path: Assets/Scenes/Puzzles/level2.unity
     guid: 9ed4e0c227da7744da3b59c01fdade5b
   - enabled: 1
-    path: Assets/Scenes/Puzzles/0027_room0.unity
+    path: Assets/Scenes/act1/room1.unity
     guid: 717d345b529719644b5a8a3c4795555d
   - enabled: 1
     path: Assets/Scenes/Puzzles/level3.unity
     guid: 80f867c958fd0464792027bf7793ac8c
   - enabled: 1
-    path: Assets/Scenes/Puzzles/gift.unity
+    path: Assets/Scenes/act1/gift.unity
     guid: ee3d5a3fb5fb4114b8803e4b1ec25d7f
   - enabled: 1
-    path: Assets/Scenes/Puzzles/00272.unity
+    path: Assets/Scenes/act1/congratulations.unity
     guid: a398f60fd42a66445a27bbb9f0bbc1b3
   - enabled: 1
     path: Assets/Scenes/cutscenes/isit.unity
     guid: b26c3a91bb1f68340bfa0f3885d3ffe0
   - enabled: 1
-    path: Assets/Scenes/Rooms/looksky.unity
+    path: Assets/Scenes/act2/looksky.unity
     guid: d67819814968c8148ace0bc331da6f3f
   - enabled: 1
     path: Assets/Scenes/Puzzles/level4.unity

@@ -1576,6 +1576,7 @@ GameObject:
   - component: {fileID: 793499584}
   - component: {fileID: 793499583}
   - component: {fileID: 793499582}
+  - component: {fileID: 793499585}
   m_Layer: 0
   m_Name: onloadEvents
   m_TagString: Untagged
@@ -1624,6 +1625,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 793499585}
+        m_TargetAssemblyTypeName: FindAndUpdateRooms, Assembly-CSharp
+        m_MethodName: FindAndUpdateRoom
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!4 &793499584
 Transform:
   m_ObjectHideFlags: 0
@@ -1638,6 +1651,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &793499585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 793499581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ede3ad930ada9240b860e0ab2787644, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomObject: []
+  theRoomName: 
+  theRoom: {fileID: 0}
 --- !u!1 &879015976
 GameObject:
   m_ObjectHideFlags: 0
@@ -4919,6 +4947,22 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
       objectReference: {fileID: 663733746}
+    - target: {fileID: 581843716, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
+      propertyPath: m_Text
+      value: act3.path
+      objectReference: {fileID: 0}
+    - target: {fileID: 799117340, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
+      propertyPath: m_Colors.m_NormalColor.b
+      value: 0.051397298
+      objectReference: {fileID: 0}
+    - target: {fileID: 799117340, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
+      propertyPath: m_Colors.m_NormalColor.g
+      value: 0.7885341
+      objectReference: {fileID: 0}
+    - target: {fileID: 799117340, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
+      propertyPath: m_Colors.m_NormalColor.r
+      value: 0.990566
+      objectReference: {fileID: 0}
     - target: {fileID: 799117340, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
@@ -4926,6 +4970,26 @@ PrefabInstance:
     - target: {fileID: 1598143764, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
       propertyPath: m_Text
       value: 3rdgift.vms
+      objectReference: {fileID: 0}
+    - target: {fileID: 1729824436, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -394
+      objectReference: {fileID: 0}
+    - target: {fileID: 1729824436, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -75
+      objectReference: {fileID: 0}
+    - target: {fileID: 1729824438, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
+      propertyPath: m_Colors.m_NormalColor.b
+      value: 0.57783836
+      objectReference: {fileID: 0}
+    - target: {fileID: 1729824438, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
+      propertyPath: m_Colors.m_NormalColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1729824438, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
+      propertyPath: m_Colors.m_NormalColor.r
+      value: 0.1273585
       objectReference: {fileID: 0}
     - target: {fileID: 1729824438, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
@@ -4944,6 +5008,18 @@ PrefabInstance:
       value: update.vms
       objectReference: {fileID: 0}
     - target: {fileID: 798437016677292778, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
+      propertyPath: m_Colors.m_NormalColor.b
+      value: 0.81107026
+      objectReference: {fileID: 0}
+    - target: {fileID: 798437016677292778, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
+      propertyPath: m_Colors.m_NormalColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 798437016677292778, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
+      propertyPath: m_Colors.m_NormalColor.r
+      value: 0.5424528
+      objectReference: {fileID: 0}
+    - target: {fileID: 798437016677292778, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
       objectReference: {fileID: 663733746}
@@ -4955,6 +5031,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
       objectReference: {fileID: 663733746}
+    - target: {fileID: 798437017087102902, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
+      propertyPath: toLoad
+      value: room1
+      objectReference: {fileID: 0}
     - target: {fileID: 798437017087102903, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
@@ -4974,8 +5054,16 @@ PrefabInstance:
 '
       objectReference: {fileID: 0}
     - target: {fileID: 798437017724579847, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
+      propertyPath: m_Name
+      value: r_ch2_0_room2
+      objectReference: {fileID: 0}
+    - target: {fileID: 798437017724579847, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 798437017724579849, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
+      propertyPath: toLoad
+      value: room2
       objectReference: {fileID: 0}
     - target: {fileID: 798437017724579850, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
@@ -5155,6 +5243,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 798437018627241116, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
+      propertyPath: toLoad
+      value: gift
+      objectReference: {fileID: 0}
     - target: {fileID: 798437018627241117, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
@@ -5241,11 +5333,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4619971557450039455, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 41
+      value: 184
       objectReference: {fileID: 0}
     - target: {fileID: 4619971557450039455, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -33
+      value: -191
       objectReference: {fileID: 0}
     - target: {fileID: 5881238156112084645, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
       propertyPath: m_IsActive
@@ -5265,6 +5357,11 @@ PrefabInstance:
 --- !u!223 &798437018429054817 stripped
 Canvas:
   m_CorrespondingSourceObject: {fileID: 798437018182959948, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
+  m_PrefabInstance: {fileID: 798437018429054816}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &798437018429054818 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5881238156112084645, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
   m_PrefabInstance: {fileID: 798437018429054816}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3564059385869036794
@@ -5294,6 +5391,10 @@ PrefabInstance:
       propertyPath: icon
       value: 
       objectReference: {fileID: 2074699413}
+    - target: {fileID: 1037184135958506318, guid: 98f3dc356448da94fbc41768852ae3fd, type: 3}
+      propertyPath: completedIcon
+      value: 
+      objectReference: {fileID: 798437018429054818}
     - target: {fileID: 2262817693596197093, guid: 98f3dc356448da94fbc41768852ae3fd, type: 3}
       propertyPath: m_text
       value: "Welcome to Dreamswork! \n\nWe are happy to have you on our team as
@@ -5412,6 +5513,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 961502599}
     - target: {fileID: 3564059386320138693, guid: 98f3dc356448da94fbc41768852ae3fd, type: 3}
+      propertyPath: newEmail
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3564059386320138693, guid: 98f3dc356448da94fbc41768852ae3fd, type: 3}
       propertyPath: isUnlocked
       value: 1
       objectReference: {fileID: 0}
@@ -5461,7 +5566,9 @@ PrefabInstance:
       objectReference: {fileID: 1729824435}
     - target: {fileID: 6000865345618755666, guid: 98f3dc356448da94fbc41768852ae3fd, type: 3}
       propertyPath: newEmail
-      value: 
+      value: "\na malware has been detected in the system. this is speculated to
+        be the result of an unsuccesful upgrade of our product. \n\nthe malware can
+        blend itself with the environment, disguise as a part of the systemic function. "
       objectReference: {fileID: 0}
     - target: {fileID: 6000865345618755666, guid: 98f3dc356448da94fbc41768852ae3fd, type: 3}
       propertyPath: completedIcon

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 1_pc_on
   m_EditorClassIdentifier: 
   dialogue:
-  - WjI4Z2FHVnlaUXAwYUdseklHbHpJR0Z1YjNSb1pYSWdiV1Z0YjNKNQ==
+  - we have a new gift for you
   - please confirm if you're ready
   responses:
   - responseText: confirm
