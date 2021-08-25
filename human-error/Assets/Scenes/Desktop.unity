@@ -4939,6 +4939,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 88696214, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 389
+      objectReference: {fileID: 0}
+    - target: {fileID: 88696214, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -223.4
+      objectReference: {fileID: 0}
     - target: {fileID: 88696216, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
@@ -5343,6 +5351,10 @@ PrefabInstance:
       propertyPath: myEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 3108003953434397713, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
+      propertyPath: m_Text
+      value: goodbye.vms
+      objectReference: {fileID: 0}
     - target: {fileID: 3151001419512591763, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
@@ -5363,6 +5375,14 @@ PrefabInstance:
       propertyPath: toLoad
       value: Brain
       objectReference: {fileID: 0}
+    - target: {fileID: 3451733416066508383, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 279
+      objectReference: {fileID: 0}
+    - target: {fileID: 3451733416066508383, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -223.4
+      objectReference: {fileID: 0}
     - target: {fileID: 3764228597268231340, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
       propertyPath: m_Name
       value: r_ch4_1_goodbye
@@ -5373,11 +5393,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4619971557450039455, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 184
+      value: 504
       objectReference: {fileID: 0}
     - target: {fileID: 4619971557450039455, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -191
+      value: -223.4
       objectReference: {fileID: 0}
     - target: {fileID: 5881238156112084645, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
       propertyPath: m_IsActive
@@ -5398,6 +5418,10 @@ PrefabInstance:
     - target: {fileID: 8013697964426733840, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
       value: set_enabled
+      objectReference: {fileID: 0}
+    - target: {fileID: 9163736070050097564, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 798437018038371049, guid: 7b95eebe127d46f49b48dff4d053a7f3, type: 3}
@@ -5484,6 +5508,10 @@ PrefabInstance:
     - target: {fileID: 3564059384451331614, guid: 98f3dc356448da94fbc41768852ae3fd, type: 3}
       propertyPath: newEmail
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3564059384451331614, guid: 98f3dc356448da94fbc41768852ae3fd, type: 3}
+      propertyPath: sceneName
+      value: looksky
       objectReference: {fileID: 0}
     - target: {fileID: 3564059384451331614, guid: 98f3dc356448da94fbc41768852ae3fd, type: 3}
       propertyPath: isUnlocked
@@ -5610,6 +5638,10 @@ PrefabInstance:
       propertyPath: icon
       value: 
       objectReference: {fileID: 2085439408}
+    - target: {fileID: 4285303437728101125, guid: 98f3dc356448da94fbc41768852ae3fd, type: 3}
+      propertyPath: sceneName
+      value: piano
+      objectReference: {fileID: 0}
     - target: {fileID: 4285303437728101125, guid: 98f3dc356448da94fbc41768852ae3fd, type: 3}
       propertyPath: completedIcon
       value: 

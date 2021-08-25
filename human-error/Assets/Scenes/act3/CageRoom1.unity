@@ -3384,9 +3384,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 3b7fb67f7eae2644896a85c93fe549e7, type: 3}
+  m_audioClip: {fileID: 8300000, guid: a1cb1646c3feb994ab0c1de14e072bde, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.892
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -3940,6 +3940,52 @@ MonoBehaviour:
   dialogueObject: {fileID: 11400000, guid: 5b283c825aeecb94aad5be0cf7a61c2a, type: 2}
   dialogueIndicator: {fileID: 0}
   player: {fileID: 0}
+--- !u!1 &1230296593
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1230296594}
+  - component: {fileID: 1230296595}
+  m_Layer: 0
+  m_Name: clearRoom
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1230296594
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1230296593}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 549.25684, y: 564.3726, z: -469.7666}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1230296595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1230296593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ede3ad930ada9240b860e0ab2787644, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomObject: []
+  theRoomName: room3
+  theRoom: {fileID: 0}
 --- !u!43 &1257319968
 Mesh:
   m_ObjectHideFlags: 0
@@ -5125,7 +5171,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomObject: []
-  theRoomName: ???
+  theRoomName: room3
   theRoom: {fileID: 0}
 --- !u!1 &1873529576 stripped
 GameObject:
@@ -5226,6 +5272,18 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: 1230296595}
+          m_TargetAssemblyTypeName: FindAndUpdateRooms, Assembly-CSharp
+          m_MethodName: SetRoomCleared
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   - eventname: cancel
     onPickedResponse:
       m_PersistentCalls:
@@ -5255,7 +5313,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomObject: []
-  theRoomName: pianoRoom
+  theRoomName: piano
   theRoom: {fileID: 0}
 --- !u!1001 &1937664510
 PrefabInstance:

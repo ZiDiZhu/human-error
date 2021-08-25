@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: procedure2_yes
   m_EditorClassIdentifier: 
   dialogue:
-  - No.. Your eyes are obviously open.
+  - do you know what we do to liars?
+  - you wouldn't want to know that, do you?
   - Let's do it again
   responses:
-  - responseText: let's do it again then
+  - responseText: ok
     dialogueObject: {fileID: 0}

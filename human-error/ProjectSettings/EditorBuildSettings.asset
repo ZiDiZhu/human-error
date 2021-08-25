@@ -24,20 +24,11 @@ EditorBuildSettings:
     path: Assets/Scenes/act2/room2.unity
     guid: 935bd1f6dd3d1d242a43bcf672a304f7
   - enabled: 1
-    path: Assets/Scenes/Video Test.unity
-    guid: 3e17746f44730ee479456b7ff4139958
-  - enabled: 1
     path: Assets/Scenes/Rooms/bluescreen.unity
     guid: 1ac884b463477c94f9085c074337ccd2
   - enabled: 1
     path: Assets/Scenes/act3/CageRoom1.unity
     guid: 30a0bff51c6512548bcb9d5e4aa85727
-  - enabled: 1
-    path: Assets/Scenes/Puzzles/Puzzle2.unity
-    guid: c6f8346ba0b095645b934d6cfd4a7e95
-  - enabled: 1
-    path: Assets/Scenes/Puzzles/Puzzle1.unity
-    guid: beff61544f7ba6f47b51202135a73d2e
   - enabled: 1
     path: Assets/Scenes/Puzzles/level0.unity
     guid: 02611d580577e78488ed635baf151d81
