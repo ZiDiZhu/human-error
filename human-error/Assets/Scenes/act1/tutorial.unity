@@ -1008,12 +1008,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "hello kids!\n\nWe hope that you are ready to play with something cool
-    today:\n\npath puzzles!\n\nproblem solving skills are very important  to prepare
-    yourselves for the obstacles of your future dream job so today, you will be solving
-    puzzles. there are a few of them, and whoever get to complete all of them first
-    wins a gift!\n\n\nthe puzzles will be open starting from the following time:\n\n\n\n\n\n
-    good luck!"
+  m_text: 'hello kids!
+
+
+    We hope that you are ready to play with something cool
+    today:
+
+
+    path puzzles!
+
+
+    problem solving skills are very important  to
+    prepare yourselves for the obstacles of your future dream job so today, you will
+    be solving puzzles. there are a few of them, and whoever get to complete all
+    of them first wins a gift!
+
+
+
+    the puzzles will be open starting from the
+    following time:
+
+
+
+
+
+
+    good luck!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1749,10 +1769,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3

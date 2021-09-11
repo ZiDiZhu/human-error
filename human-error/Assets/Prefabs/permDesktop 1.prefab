@@ -11,13 +11,14 @@ GameObject:
   - component: {fileID: 24850747}
   - component: {fileID: 24850749}
   - component: {fileID: 24850748}
+  - component: {fileID: 1563005447324269815}
   m_Layer: 5
   m_Name: RawImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &24850747
 RectTransform:
   m_ObjectHideFlags: 0
@@ -72,6 +73,102 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
+--- !u!82 &1563005447324269815
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 24850746}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: acf3aa11b75eddb4aa20ee1be7177ea2, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &71010859
 GameObject:
   m_ObjectHideFlags: 0
@@ -182,7 +279,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 63, y: -205}
+  m_AnchoredPosition: {x: 389, y: -223.4}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &88696218
@@ -206,7 +303,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.8117453, g: 0.6273585, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -560,7 +657,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: act3.path
 --- !u!1 &799117337
 GameObject:
   m_ObjectHideFlags: 0
@@ -658,7 +755,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_NormalColor: {r: 0.990566, g: 0.7885341, b: 0.051397298, a: 1}
     m_HighlightedColor: {r: 0.62136126, g: 1, b: 0, a: 1}
     m_PressedColor: {r: 0.99765015, g: 0, b: 1, a: 1}
     m_SelectedColor: {r: 1, g: 0, b: 0.07817793, a: 1}
@@ -952,7 +1049,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: piano.vms
+  m_Text: 3rdgift.vms
 --- !u!1 &1729824435
 GameObject:
   m_ObjectHideFlags: 0
@@ -991,7 +1088,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 492, y: 74}
+  m_AnchoredPosition: {x: -394, y: -75}
   m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1729824440
@@ -1050,7 +1147,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 0.49680817, b: 0.33490568, a: 1}
+    m_NormalColor: {r: 0.1273585, g: 1, b: 0.57783836, a: 1}
     m_HighlightedColor: {r: 0.62136126, g: 1, b: 0, a: 1}
     m_PressedColor: {r: 0.99765015, g: 0, b: 1, a: 1}
     m_SelectedColor: {r: 1, g: 0, b: 0.07817793, a: 1}
@@ -1351,7 +1448,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: room3.vms
 --- !u!1 &2085439408
 GameObject:
   m_ObjectHideFlags: 0
@@ -1599,7 +1696,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: update.vms
 --- !u!1 &798437016677292775
 GameObject:
   m_ObjectHideFlags: 0
@@ -1697,7 +1794,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_NormalColor: {r: 0.5424528, g: 1, b: 0.81107026, a: 1}
     m_HighlightedColor: {r: 0.62136126, g: 1, b: 0, a: 1}
     m_PressedColor: {r: 0.99765015, g: 0, b: 1, a: 1}
     m_SelectedColor: {r: 1, g: 0, b: 0.07817793, a: 1}
@@ -1919,7 +2016,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: room1.vms
 --- !u!1 &798437016981438572
 GameObject:
   m_ObjectHideFlags: 0
@@ -2767,7 +2864,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ???.vms
+  m_Text: sky.vms
 --- !u!1 &798437017460724431
 GameObject:
   m_ObjectHideFlags: 0
@@ -3319,7 +3416,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '  gift.vmr
+  m_Text: '2ndgift.vms
 
 '
 --- !u!1 &798437017724579847
@@ -3336,7 +3433,7 @@ GameObject:
   - component: {fileID: 798437017724579850}
   - component: {fileID: 798437017724579849}
   m_Layer: 5
-  m_Name: r_ch2_0_wroom2
+  m_Name: r_ch2_0_room2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3490,7 +3587,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c9ed867e03c0e4429400271e392d79c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toLoad: CageRoom
+  toLoad: room2
 --- !u!1 &798437017892563313
 GameObject:
   m_ObjectHideFlags: 0
@@ -3793,7 +3890,7 @@ GameObject:
   - component: {fileID: 798437018038371052}
   - component: {fileID: 798437018038371051}
   - component: {fileID: 798437018038371050}
-  - component: {fileID: 798437018038371049}
+  - component: {fileID: 961502600}
   m_Layer: 5
   m_Name: r_ch2_2_bluescreen
   m_TagString: Untagged
@@ -3820,7 +3917,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -392, y: -87}
+  m_AnchoredPosition: {x: 43, y: 145}
   m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &798437018038371052
@@ -3902,9 +3999,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 798437018038371049}
-        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
-        m_MethodName: LoadScene
+      - m_Target: {fileID: 961502600}
+        m_TargetAssemblyTypeName: OnOff, Assembly-CSharp
+        m_MethodName: SwitchOnOff
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3914,31 +4011,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 798437018182959948}
-        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
-        m_MethodName: set_enabled
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
-        m_MethodName: set_enabled
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &798437018038371049
+--- !u!114 &961502600
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3947,10 +4020,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 798437018038371047}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c9ed867e03c0e4429400271e392d79c, type: 3}
+  m_Script: {fileID: 11500000, guid: 66ec2fed0930d6b4aaa9c0489e89a2bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toLoad: CageRoom
+  thing: {fileID: 5590415461947990831}
+  isOn: 0
+  offOnLoad: 1
 --- !u!1 &798437018182959944
 GameObject:
   m_ObjectHideFlags: 0
@@ -4024,10 +4099,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -4402,7 +4477,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 22, y: -113}
+  m_AnchoredPosition: {x: 16, y: -113}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &798437018563991883
@@ -4446,7 +4521,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: room4.vms
 --- !u!1 &798437018566584871
 GameObject:
   m_ObjectHideFlags: 0
@@ -4687,7 +4762,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c9ed867e03c0e4429400271e392d79c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toLoad: 00301_room
+  toLoad: gift
 --- !u!1 &798437018654148228
 GameObject:
   m_ObjectHideFlags: 0
@@ -5016,7 +5091,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 22, y: -113}
+  m_AnchoredPosition: {x: 10, y: -113}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &847826066232373757
@@ -5060,7 +5135,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: goodbye.vms
 --- !u!1 &3737036219414077416
 GameObject:
   m_ObjectHideFlags: 0
@@ -5122,7 +5197,7 @@ GameObject:
   - component: {fileID: 8013697964426733840}
   - component: {fileID: 3364747554899046393}
   m_Layer: 5
-  m_Name: r_ch4_0_room4 (1)
+  m_Name: r_ch4_1_goodbye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5146,7 +5221,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -41, y: -209.6}
+  m_AnchoredPosition: {x: 279, y: -223.4}
   m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2761280889739896164
@@ -5276,7 +5351,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c9ed867e03c0e4429400271e392d79c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toLoad: PianoRoom
+  toLoad: Brain
 --- !u!1 &3955164476780369143
 GameObject:
   m_ObjectHideFlags: 0
@@ -5539,10 +5614,46 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inputField: {fileID: 7087702139985706270}
-  password: 
+  password: 3030
   myEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1963344581111616951}
+        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 798437018182959948}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5676893834585324185
 GameObject:
   m_ObjectHideFlags: 0
@@ -5632,7 +5743,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1322946832623081448
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5701,7 +5812,7 @@ GameObject:
   - component: {fileID: 3151001419512591763}
   - component: {fileID: 6456324672128843181}
   m_Layer: 5
-  m_Name: r_ch4_0_room4
+  m_Name: r_ch4_0_sorry
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5725,7 +5836,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -41, y: -266}
+  m_AnchoredPosition: {x: 504, y: -223.4}
   m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1481030916871867938
@@ -5855,7 +5966,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c9ed867e03c0e4429400271e392d79c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toLoad: PianoRoom
+  toLoad: PurplePath
 --- !u!1 &6859660949756308552
 GameObject:
   m_ObjectHideFlags: 0
@@ -6247,7 +6358,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 22, y: -113}
+  m_AnchoredPosition: {x: 17.8, y: -114.2}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4245257688728303504
@@ -6291,4 +6402,4 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: sorry.vms
