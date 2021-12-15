@@ -33,6 +33,7 @@ public class Room : MonoBehaviour
         //Debug.Log("vibe check");
     }
 
+    //lol this was made when i didn't know what a case/switch was. Maybe change this to a switch statement later
     public void UpdateIcon()
     {
 

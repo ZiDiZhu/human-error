@@ -744,7 +744,8 @@ MonoBehaviour:
   unlockedIcon: {fileID: 2800000, guid: b9661ed87dccc2545a25dfbf621621c1, type: 3}
   completedIcon: {fileID: 0}
   mailText: {fileID: 2262817693596197093}
-  newEmail: 
+  newEmail: 'This clone is exceptionally good at solving puzzles. We are planning
+    to make a commercial release of this clone model after more testing. '
   greenDot: {fileID: 8750428824786780368}
   notified: 0
 --- !u!1 &3564059385197153624
