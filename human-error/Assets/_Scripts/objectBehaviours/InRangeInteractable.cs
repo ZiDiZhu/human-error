@@ -14,14 +14,21 @@ public class InRangeInteractable : MonoBehaviour
     private void Start()
     {
         thing.SetActive(false);
-        interactIndicator.SetActive(false);
+        if(interactIndicator != null)
+        {
+            interactIndicator.SetActive(false);
+        }
+        
         inRange = false;
     }
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            interactIndicator.SetActive(true);
+            if (interactIndicator != null)
+            {
+                interactIndicator.SetActive(true);
+            }
             inRange = true;
             
         }

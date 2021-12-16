@@ -3,7 +3,11 @@ guid: 8d3e4cbd4c2e85849a39c11db73910c1
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - thing: {instanceID: 0}
+  - interactIndicator: {instanceID: 0}
+  - playermovement: {instanceID: 0}
+  - mouseLook: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
