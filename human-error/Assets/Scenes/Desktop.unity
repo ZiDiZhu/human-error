@@ -5639,7 +5639,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3564059384451331614, guid: 98f3dc356448da94fbc41768852ae3fd, type: 3}
       propertyPath: newEmail
-      value: 
+      value: "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\r\n\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2591\u2591               
+        \u2593\u2593\u2593\u2593\u2592\u2592\u2591\u2591                      \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\r\n\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2593\u2593\u2591\u2591               
+        \u2591\u2591\u2592\u2592\u2591\u2591\u2591\u2591                        \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\r\n\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2593\u2593\u2592\u2592\u2588\u2588\u2592\u2592\u2591\u2591                 
+        \u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591             
+        \u2591\u2591    \u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2593\u2593\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\r\n\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2591\u2591 
+        \u2592\u2592\u2593\u2593\u2591\u2591\u2591\u2591\u2591\u2591                 
+        \u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591               
+        \u2592\u2592\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\r\n\u2588\u2588\u2588\u2588\u2593\u2593\u2592\u2592\u2591\u2591   
+        \u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591         
+        \u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591                 
+        \u2591\u2591\u2591\u2591\u2592\u2592\u2588\u2588\u2593\u2593\u2588\u2588\r\n\u2593\u2593\u2593\u2593\u2593\u2593\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591                       
+        \u2592\u2592\u2592\u2592\u2593\u2593\r\n\u2593\u2593\u2593\u2593\u2593\u2593\u2593\u2593\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2592\u2592\u2592\u2592\u2592\u2592\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591                   
+        \u2591\u2591\u2592\u2592\u2592\u2592\r\n\u2593\u2593\u2592\u2592\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2592\u2592\u2592\u2592\u2593\u2593\u2592\u2592\u2592\u2592\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591           
+        \u2591\u2591\u2591\u2591\u2591\u2591\u2592\u2592\u2592\u2592\r\n\u2593\u2593\u2593\u2593\u2593\u2593\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2592\u2592\u2592\u2592\u2593\u2593\u2593\u2593\u2592\u2592\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2592\u2592\u2593\u2593\u2593\u2593\u2593\u2593\r\n\u2593\u2593\u2593\u2593\u2593\u2593\u2593\u2593\u2592\u2592\u2592\u2592\u2591\u2591\u2591\u2591\u2591\u2591\u2592\u2592\u2592\u2592\u2592\u2592\u2593\u2593\u2592\u2592\u2591\u2591\u2591\u2591 
+        \u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2592\u2592\u2592\u2592\u2592\u2592\u2592\u2592\u2593\u2593\u2593\u2593\u2593\u2593\u2593\ni
+        would like to see the sky one day. i made this drawing from a dream i had
+        the other day. have you ever seen the sky? is it beautiful? what color of
+        the sky do you like the best?"
       objectReference: {fileID: 0}
     - target: {fileID: 3564059384451331614, guid: 98f3dc356448da94fbc41768852ae3fd, type: 3}
       propertyPath: sceneName
@@ -5707,8 +5724,10 @@ PrefabInstance:
       objectReference: {fileID: 2119163660}
     - target: {fileID: 3564059384980194333, guid: 98f3dc356448da94fbc41768852ae3fd, type: 3}
       propertyPath: newEmail
-      value: 'This clone is exceptionally good at solving puzzles. We are planning
-        to make a commercial release of this clone model after more testing. '
+      value: 'This clone is exceptionally good at solving puzzles. We were planning
+        to make a commercial release of this clone model, but we later noticed behavioural
+        issues in this clone. We tried to fix some of these issues, but we''re afraid
+        that it is still not stable enough for mass production. '
       objectReference: {fileID: 0}
     - target: {fileID: 3564059384980194333, guid: 98f3dc356448da94fbc41768852ae3fd, type: 3}
       propertyPath: completedIcon
@@ -5736,10 +5755,10 @@ PrefabInstance:
       objectReference: {fileID: 704819047}
     - target: {fileID: 3564059386147453890, guid: 98f3dc356448da94fbc41768852ae3fd, type: 3}
       propertyPath: newEmail
-      value: "daily health reminder:\n\nmemories have little relation to subjective
-        reality, they are only the simulacra of lived experiences.\n\n\n\nsome details
-        in these vms files may raise your concern, but there is absolutely no need
-        to be.  \n"
+      value: 'This clone is exceptionally good at solving puzzles. We were planning
+        to make a commercial release of this clone model, but we later noticed behavioural
+        issues in this clone. We tried to fix some of these issues, but we''re afraid
+        that it is still not stable enough for mass production. '
       objectReference: {fileID: 0}
     - target: {fileID: 3564059386147453890, guid: 98f3dc356448da94fbc41768852ae3fd, type: 3}
       propertyPath: completedIcon
@@ -5771,7 +5790,10 @@ PrefabInstance:
       objectReference: {fileID: 472919034}
     - target: {fileID: 3564059386550385001, guid: 98f3dc356448da94fbc41768852ae3fd, type: 3}
       propertyPath: newEmail
-      value: 
+      value: ": : distorion and loss of memory is completely natural. when retrieving
+        memories, most gaps in momories are auto-filled for consistency.  \n\nvisible
+        obstructing blocks in THE memorY are usually rARE. we stilL don't know whY
+        it occurs, but our specialists are workING on it. "
       objectReference: {fileID: 0}
     - target: {fileID: 3564059386550385001, guid: 98f3dc356448da94fbc41768852ae3fd, type: 3}
       propertyPath: completedIcon
@@ -5781,6 +5803,15 @@ PrefabInstance:
       propertyPath: icon
       value: 
       objectReference: {fileID: 2085439408}
+    - target: {fileID: 4285303437728101125, guid: 98f3dc356448da94fbc41768852ae3fd, type: 3}
+      propertyPath: newEmail
+      value: '
+
+
+
+        i liked playing the piano. they let me play the piano sometimes,
+        but only with one hand. '
+      objectReference: {fileID: 0}
     - target: {fileID: 4285303437728101125, guid: 98f3dc356448da94fbc41768852ae3fd, type: 3}
       propertyPath: sceneName
       value: piano
