@@ -10,16 +10,24 @@ public class DialogueUI : MonoBehaviour
 
     public bool isOpen { get; set; }
 
+
+    public GameObject player;
+    public GameObject playerCamera;
     //[SerializeField] private DialogueObject testDialogue;
 
     private ResponseHandler responseHandler;
     private TypewriterEffect typewriterEffect;
 
+    public DialogueObject continuedDialogue;
 
-      private void Start()
+    public bool canClose = false; //fix the issue of exiting the dialogue
+
+
+    private void Start()
       {
         typewriterEffect = GetComponent<TypewriterEffect>();
         responseHandler = GetComponent<ResponseHandler>();
+        player = GameObject.FindGameObjectWithTag("Player");
         CloseDialogueBox();
 
         //ShowDialogue(testDialogue);
@@ -52,23 +60,49 @@ public class DialogueUI : MonoBehaviour
             yield return new WaitUntil(() => Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.E));
         }
 
+        //checks if there are any responses (in inspector of dialogueobject)
 
-        //checks if there are any responses to show at the end of Dialogues
+        //***disabling rn to test
         if (dialogueObject.HasResponses)
         {
-            responseHandler.ShowResponses(dialogueObject.Responses); 
+            Debug.Log("showing responses");
+
+            responseHandler.ShowResponses(dialogueObject.Responses);
+
         }
         else
         {
+            Debug.Log("no response");
+
             CloseDialogueBox();
         }
-      }
+    }
 
       public void CloseDialogueBox()
       {
+
         isOpen = false;
         dialogueBox.SetActive(false);
         textLabel.text=string.Empty;
+        if (player != null)
+        {
+            playerCamera = player.transform.Find("Main Camera").gameObject;
+
+            playerCamera.GetComponent<MouseLook>().canRotate = true;
+            player.GetComponent<PlayerMovement>().canMove = true;
+        }
+
+        if (!canClose)
+        {
+            if (continuedDialogue)
+            {
+                //ShowDialogue(continuedDialogue); //this doesnt add events
+                player.GetComponent<Player>().Interactable.Interact(player.GetComponent<Player>());
+            }
+            //canClose = true;
+        }
       }
 
 }
+
+//player.GetComponent<Player>().Interactable.Interact(player.GetComponent<Player>());

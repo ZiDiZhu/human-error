@@ -668,6 +668,7 @@ MonoBehaviour:
   dialogueObject: {fileID: 11400000, guid: e8733c5588b1aad42bc2cc52141754be, type: 2}
   dialogueIndicator: {fileID: 0}
   player: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &244052780
 GameObject:
   m_ObjectHideFlags: 0
@@ -3365,8 +3366,8 @@ GameObject:
   - component: {fileID: 732617226}
   - component: {fileID: 732617228}
   - component: {fileID: 732617227}
-  - component: {fileID: 732617230}
   - component: {fileID: 732617229}
+  - component: {fileID: 732617230}
   - component: {fileID: 732617231}
   - component: {fileID: 732617232}
   m_Layer: 0
@@ -3468,6 +3469,7 @@ MonoBehaviour:
   dialogueObject: {fileID: 11400000, guid: 8f6be3d41e570434889e82ef21df4999, type: 2}
   dialogueIndicator: {fileID: 1443777890}
   player: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!114 &732617227
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4741,7 +4743,7 @@ Transform:
   - {fileID: 1346044960}
   - {fileID: 870939547}
   m_Father: {fileID: 7626930312183537768}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 3.436, z: 90}
 --- !u!64 &1015587084
 MeshCollider:
@@ -5965,6 +5967,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueBox: {fileID: 584923194}
   textLabel: {fileID: 2055736171}
+  player: {fileID: 0}
+  playerCamera: {fileID: 0}
+  continuedDialogue: {fileID: 0}
+  canClose: 1
 --- !u!114 &1599264238
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5995,6 +6001,7 @@ MonoBehaviour:
   responseBox: {fileID: 2077410805}
   responseButtonTemplate: {fileID: 244052781}
   responseContainer: {fileID: 1140607316}
+  responseEvents: []
   player: {fileID: 0}
   playerCamera: {fileID: 0}
 --- !u!1 &1647219257

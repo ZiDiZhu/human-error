@@ -11,7 +11,7 @@ public class ResponseHandler : MonoBehaviour
     [SerializeField] private RectTransform responseContainer;
 
     private DialogueUI dialogueUI;
-    private ResponseEvent[] responseEvents;
+    [SerializeField] private ResponseEvent[] responseEvents;
 
     private List<GameObject> tempResponseButtons = new List<GameObject>();
 
@@ -52,6 +52,8 @@ public class ResponseHandler : MonoBehaviour
             GameObject responseButton = Instantiate(responseButtonTemplate.gameObject, responseContainer);
             responseButton.gameObject.SetActive(true);
             responseButton.GetComponent<TMP_Text>().text = response.ResponseText;
+
+            //turns response into button
             responseButton.GetComponent<Button>().onClick.AddListener(() => OnPickedResponse(response,responseIndex));
 
             tempResponseButtons.Add(responseButton);
@@ -62,11 +64,15 @@ public class ResponseHandler : MonoBehaviour
 
         responseBox.sizeDelta = new Vector2(responseBox.sizeDelta.x, responseBoxHeight);
         responseBox.gameObject.SetActive(true);
+
     }
 
     //when a response is clicked
     private void OnPickedResponse(Response response, int responseIndex)
     {
+
+        Debug.Log("Picked Response");
+
         //close the response box
         responseBox.gameObject.SetActive(false);
 
@@ -94,13 +100,20 @@ public class ResponseHandler : MonoBehaviour
 
         responseEvents = null;
 
+
         if (response.DialogueObject)
         {
-            dialogueUI.ShowDialogue(response.DialogueObject);
+            Debug.Log("warning:response dialogue");
+            //dialogueUI.CloseDialogueBox();
+            //dialogueUI.ShowDialogue(response.DialogueObject);
         }
         else
         {
+            Debug.Log("no response dialogue");
+
             dialogueUI.CloseDialogueBox();
+
+            dialogueUI.canClose = true;
         }
         
     }

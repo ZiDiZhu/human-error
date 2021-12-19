@@ -9,12 +9,41 @@ public class DialogueActivator : MonoBehaviour, Interactable
     {
         this.dialogueObject = dialogueObject;
         dialogueIndicator.SetActive(true);
+        //hotfix for the bug where the dialoguebox closes after a response has been selected.
+        //It doesn't really fix anything lol but locks the player movemnet until another input
+        /*
+        player = GameObject.FindGameObjectWithTag("Player");
+        if (player != null)
+        {
+            playerCamera = player.transform.Find("Main Camera").gameObject;
 
+            playerCamera.GetComponent<MouseLook>().canRotate = false;
+            player.GetComponent<PlayerMovement>().canMove = false;
+        }
+        */
+
+
+        //failed fix attemp:
+
+        //player.GetComponent<Player>().DialogueUI.CloseDialogueBox();
+        //Interact(player.GetComponent<Player>());
+
+        //this should fix it!
+        var canclose = player.GetComponent<Player>().DialogueUI.canClose;
+        if (canclose ==true)
+        {
+            player.GetComponent<Player>().DialogueUI.continuedDialogue = dialogueObject;
+            player.GetComponent<Player>().DialogueUI.canClose = false;//disable closing dialogue
+        }
+        //player.GetComponent<Player>().Interactable = this;
+
+        Debug.Log("UpdatedDialogueObject");
     }
 
     public GameObject dialogueIndicator; //a ? that indicates there's a dialogue to be triggered
     public GameObject player;
-    
+    public GameObject playerCamera;
+
 
     void Start()
     {
@@ -34,11 +63,29 @@ public class DialogueActivator : MonoBehaviour, Interactable
             {
                 player.DialogueUI.AddResponseEvents(responseEvents.Events);
                 break;
+                
             }
         }
+        Debug.Log("interact");
 
         player.DialogueUI.ShowDialogue(dialogueObject);
     }
+
+    public void ReponseFix(Player player)
+    {
+        foreach (DialogueResponseEvents responseEvents in GetComponents<DialogueResponseEvents>())
+        {
+            if (responseEvents.DialogueObject == dialogueObject)
+            {
+                player.DialogueUI.AddResponseEvents(responseEvents.Events);
+                break;
+
+            }
+        }
+        Debug.Log("responseFix");
+
+    }
+
 
     void OnTriggerEnter(Collider other)
     {
@@ -46,6 +93,7 @@ public class DialogueActivator : MonoBehaviour, Interactable
         {
             if(other.TryGetComponent(out Player player))
             {
+                Debug.Log("Player in range");
                 player.Interactable = this;
             }
 

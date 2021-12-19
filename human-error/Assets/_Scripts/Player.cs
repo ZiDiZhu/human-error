@@ -22,6 +22,7 @@ public class Player : MonoBehaviour
 
     void Update()
     {
+        //Debug.Log(Cursor.lockState);
         //lock the player's movement while in a dialogue
         if (dialogueUI.isOpen)
         {
