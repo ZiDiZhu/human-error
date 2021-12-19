@@ -278,8 +278,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 21504055}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.26, y: 0.78, z: 2}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -2.79, y: 0.78, z: 2}
+  m_LocalScale: {x: 2.5559075, y: 2.5559075, z: 2.5559075}
   m_Children:
   - {fileID: 419406453}
   m_Father: {fileID: 1533017724}
@@ -330,6 +330,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueBox: {fileID: 1828486664}
   textLabel: {fileID: 1828486666}
+  player: {fileID: 0}
+  playerCamera: {fileID: 0}
+  continuedDialogue: {fileID: 0}
+  canClose: 0
 --- !u!114 &21504061
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -426,6 +430,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueBox: {fileID: 609031766}
   textLabel: {fileID: 609031768}
+  player: {fileID: 0}
+  playerCamera: {fileID: 0}
+  continuedDialogue: {fileID: 0}
+  canClose: 0
 --- !u!65 &31674947
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -873,6 +881,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueBox: {fileID: 609031766}
   textLabel: {fileID: 609031768}
+  player: {fileID: 0}
+  playerCamera: {fileID: 0}
+  continuedDialogue: {fileID: 0}
+  canClose: 0
 --- !u!65 &294971300
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3416,6 +3428,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueBox: {fileID: 609031766}
   textLabel: {fileID: 609031768}
+  player: {fileID: 0}
+  playerCamera: {fileID: 0}
+  continuedDialogue: {fileID: 0}
+  canClose: 0
 --- !u!65 &1052233492
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3801,7 +3817,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41ce86cf017307048ba2500f5b0b8579, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  userName: win10
+  userName: '     '
   txt: 'hey '
   txt2: ' i left a debug command to get you out of here. ENTER.'
 --- !u!1 &1140607315
@@ -4315,6 +4331,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueBox: {fileID: 609031766}
   textLabel: {fileID: 609031768}
+  player: {fileID: 0}
+  playerCamera: {fileID: 0}
+  continuedDialogue: {fileID: 0}
+  canClose: 0
 --- !u!65 &1329598014
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4886,6 +4906,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueBox: {fileID: 584923194}
   textLabel: {fileID: 2055736171}
+  player: {fileID: 0}
+  playerCamera: {fileID: 0}
+  continuedDialogue: {fileID: 0}
+  canClose: 0
 --- !u!114 &1599264238
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4916,6 +4940,7 @@ MonoBehaviour:
   responseBox: {fileID: 2077410805}
   responseButtonTemplate: {fileID: 244052781}
   responseContainer: {fileID: 1140607316}
+  responseEvents: []
   player: {fileID: 0}
   playerCamera: {fileID: 0}
 --- !u!43 &1707977147

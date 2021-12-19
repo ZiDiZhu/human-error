@@ -53,6 +53,7 @@ public class Room : MonoBehaviour
 
         if (isClear)
         {
+            icon.GetComponent<RawImage>().texture = unlockedIcon;
             icon.GetComponent<Button>().interactable = false;
             if (completedIcon != null)
             {

@@ -5590,6 +5590,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 396044940}
     - target: {fileID: 79353908510031389, guid: 98f3dc356448da94fbc41768852ae3fd, type: 3}
+      propertyPath: newEmail
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 79353908510031389, guid: 98f3dc356448da94fbc41768852ae3fd, type: 3}
       propertyPath: completedIcon
       value: 
       objectReference: {fileID: 71010859}
