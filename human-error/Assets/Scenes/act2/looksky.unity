@@ -4476,6 +4476,7 @@ MonoBehaviour:
   dialogueObject: {fileID: 11400000, guid: be117d75ec5b5fd45a7484efbb4d0f13, type: 2}
   dialogueIndicator: {fileID: 268398867}
   player: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!114 &1188551810
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4723,10 +4724,10 @@ PrefabInstance:
     - target: {fileID: 1246030153430145115, guid: b3ec0aca3bbab6b48810dae38f7e48fb, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 496665fe4bd20c64aae46ffd93c486da, type: 3}
+      objectReference: {fileID: 21300000, guid: 50106b919469fb24e8ac3d3067dd23ec, type: 3}
     - target: {fileID: 1246030153430145125, guid: b3ec0aca3bbab6b48810dae38f7e48fb, type: 3}
       propertyPath: currentPageNum
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1246030153430145125, guid: b3ec0aca3bbab6b48810dae38f7e48fb, type: 3}
       propertyPath: pages.Array.data[3]
@@ -5551,6 +5552,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueBox: {fileID: 584923194}
   textLabel: {fileID: 2055736171}
+  player: {fileID: 0}
+  playerCamera: {fileID: 0}
+  continuedDialogue: {fileID: 0}
+  canClose: 0
 --- !u!114 &1599264238
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5581,6 +5586,7 @@ MonoBehaviour:
   responseBox: {fileID: 2077410805}
   responseButtonTemplate: {fileID: 244052781}
   responseContainer: {fileID: 1140607316}
+  responseEvents: []
   player: {fileID: 0}
   playerCamera: {fileID: 0}
 --- !u!1 &1744344565

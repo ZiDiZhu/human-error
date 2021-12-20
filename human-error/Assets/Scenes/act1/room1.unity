@@ -541,6 +541,7 @@ MonoBehaviour:
   dialogueObject: {fileID: 11400000, guid: e8733c5588b1aad42bc2cc52141754be, type: 2}
   dialogueIndicator: {fileID: 0}
   player: {fileID: 0}
+  playerCamera: {fileID: 0}
 --- !u!1 &244052780
 GameObject:
   m_ObjectHideFlags: 0
@@ -4920,6 +4921,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueBox: {fileID: 584923194}
   textLabel: {fileID: 2055736171}
+  player: {fileID: 0}
+  playerCamera: {fileID: 0}
+  continuedDialogue: {fileID: 0}
+  canClose: 0
 --- !u!114 &1599264238
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4950,6 +4955,7 @@ MonoBehaviour:
   responseBox: {fileID: 2077410805}
   responseButtonTemplate: {fileID: 244052781}
   responseContainer: {fileID: 1140607316}
+  responseEvents: []
   player: {fileID: 0}
   playerCamera: {fileID: 0}
 --- !u!43 &1686866268
@@ -5790,6 +5796,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1246030153430145114, guid: b3ec0aca3bbab6b48810dae38f7e48fb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1246030153430145115, guid: b3ec0aca3bbab6b48810dae38f7e48fb, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 50106b919469fb24e8ac3d3067dd23ec, type: 3}
+    - target: {fileID: 1246030153430145125, guid: b3ec0aca3bbab6b48810dae38f7e48fb, type: 3}
+      propertyPath: currentPageNum
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1246030154827370061, guid: b3ec0aca3bbab6b48810dae38f7e48fb, type: 3}
