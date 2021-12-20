@@ -15,8 +15,7 @@ MonoBehaviour:
   dialogue:
   - i   t    '    s    o    k  .
   - i      s  t  i  l  l     1 o  v  e       y o u      f  r  i  e  n d
-  - y   o   u      s   e  t     m   e      f r  e  e
-  - b   y    e      b  y   e       f  r i  e n  d
+  - 'b   y    e      b  y   e       '
   responses:
   - responseText: goodbye
     dialogueObject: {fileID: 0}
